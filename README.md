@@ -1,5 +1,5 @@
 # Why?
-We are looking for high-performance team members. So, in order to know you a little bit we had been to create a challenge.
+We are looking for high-performance team members. So, in order to know you a little bit we have created a challenge.
 
 # The Challenge
 We are looking to a way that allows us to fetch our favorites songs from Spotify, store, and filter inside our own app. Why? Why not!
