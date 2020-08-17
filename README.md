@@ -5,7 +5,7 @@ We are looking for high-performance team members. So, in order to know you a lit
 We are looking to a way that allows us to fetch our favorites songs from Spotify, store, and filter inside our own app. Why? Why not!
 
 ## Brief
-- The app must have a basic form with a search field a button "search"
+- The app must have a basic form with a "search field" and a button "search"
 - When a user completes the album or artist name in the field <search> the app must connect to Spotify and fetch resources (albums and artists)  and store it in the app's database (model or table called <results>)
 - The app must display a list (or table) with results
  
