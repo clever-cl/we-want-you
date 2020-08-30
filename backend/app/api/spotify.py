@@ -88,3 +88,16 @@ def search_spotify_data_by_type( spotify_type: SpotifyType , spotify_search: str
     else: 
         return { "detail": { "error": "spotify_type", "error_description": "Invalid spotify type, you have to choose between 'artist' or 'album'" } }
     
+
+
+@router.get("/spotify")
+def get_spotify_data( Authorization: Optional[str] = Header(None),  db: Session = Depends(deps.get_db)):
+    """
+    Get Spotify Data from DB
+
+    Require authentication
+
+    """
+    db_result = crud.get_results(db)
+
+    return db_result

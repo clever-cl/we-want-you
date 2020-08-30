@@ -1,0 +1,258 @@
+{
+	"info": {
+		"_postman_id": "45e4d6b4-3382-4407-a9cd-188156d5649c",
+		"name": "My spotify API integration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Spotify API",
+			"item": [
+				{
+					"name": "Spotify - Get apitoken",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "grant_type",
+									"value": "client_credentials",
+									"type": "text"
+								},
+								{
+									"key": "client_id",
+									"value": "1dfa90f11a6e4ea8968ce90cd07fa0ba",
+									"type": "text"
+								},
+								{
+									"key": "client_secret",
+									"value": "7090e5aede684916ab2e44fa25496375",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://accounts.spotify.com/api/token",
+							"protocol": "https",
+							"host": [
+								"accounts",
+								"spotify",
+								"com"
+							],
+							"path": [
+								"api",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Spotify - Search for an item",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer BQDW2d9ddQ9hiJL9qiJr1ODlWVGtKyWEuZR1Sb1L-xMO3lC2binnNZhAdY_hRAsXCVEBsSNc25eQABpSPJE",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://api.spotify.com/v1/search?q=bad bunny&type=artist&limit=40",
+							"protocol": "https",
+							"host": [
+								"api",
+								"spotify",
+								"com"
+							],
+							"path": [
+								"v1",
+								"search"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "bad bunny"
+								},
+								{
+									"key": "type",
+									"value": "artist"
+								},
+								{
+									"key": "limit",
+									"value": "40"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "API integration",
+			"item": [
+				{
+					"name": "Get Spotify Api Token",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "f6fa0810-9aa1-425c-a69a-34336e984dcb",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"client_id\": \"1dfa90f11a6e4ea8968ce90cd07fa0ba\",\r\n    \"client_secret\": \"7090e5aede684916ab2e44fa25496375\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/spotify/api/token",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"spotify",
+								"api",
+								"token"
+							]
+						},
+						"description": "Request artist data from spotify"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Spotify Artist Data",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{api_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"client_id\": \"1dfa90f11a6e4ea8968ce90cd07fa0ba\",\r\n    \"client_secret\": \"7090e5aede684916ab2e44fa25496375\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/spotify/album/bad bunny",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"spotify",
+								"album",
+								"bad bunny"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Spotify Data From DB",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{api_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"client_id\": \"1dfa90f11a6e4ea8968ce90cd07fa0ba\",\r\n    \"client_secret\": \"7090e5aede684916ab2e44fa25496375\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/spotify/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"spotify",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "fc039cff-3553-49cb-8be7-7ca58a578766",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "91573648-bfd5-4c5e-8e0d-a7a4de34995a",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "d1df3d7d-0322-4ef1-ad62-3973eb973c1c",
+			"key": "url",
+			"value": "https://secure-river-01176.herokuapp.com"
+		},
+		{
+			"id": "1942c29f-3ae8-4028-af12-308cfbbf22f3",
+			"key": "api_token",
+			"value": "BQBy-A-RRyG0diVFwCxYa7GMYeMjEQb19Hz_LNIcuY44AWuVYQwig3ER2Y1Chgk2j-vgNmAGkGV0ZDK94e4"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
