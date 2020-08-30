@@ -1,5 +1,12 @@
+# fastapi import
 from fastapi import Depends, FastAPI, HTTPException
 from fastapi.security import OAuth2PasswordRequestForm
+
+# database import
+import crud, models, schemas
+from database import SessionLocal, engine
+
+models.Base.metadata.create_all(bind=engine)
 
 # routes from spotify api
 from .api import spotify
@@ -22,8 +29,16 @@ app = FastAPI(
     openapi_tags = tags_metadata
 )
 
+# DB Dependency
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
 
 
+# API ROUTES
 app.include_router(spotify.router, tags=["spotify"])
 
 
