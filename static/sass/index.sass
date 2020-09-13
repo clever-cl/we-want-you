@@ -1,0 +1,59 @@
+@import 'vars'
+@import 'reset'
+@import 'devices'
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&display=swap')
+
+body
+  display: grid
+  min-width: 100%
+  min-height: 100vh
+  font-size: 16px
+  background: #1F1F2D
+  place-items: center
+  .container
+    display: grid
+    border-radius: 24px
+    width: 480px
+    padding: 16px
+    background: $white
+    .search-spotify
+      display: flex
+      align-items: center
+      h1
+        font-family: 'Nunito'
+        font-size: 2rem
+        color: $dark
+        width: 100%
+      .search
+        min-height: 48px
+        min-width: 48px
+        border-radius: 32px
+        background: $accent
+        display: flex
+        justify-content: center
+        align-items: center
+        box-shadow: 0px 2px 2px rgba(0,0,0,0.25)
+        svg
+          fill: $white
+          margin: 8px
+          width: 24px
+          height: 24px
+          transform: rotate(90deg)
+        input
+          border: none
+          visibility: hidden
+          display: none
+        button
+          opacity: 0
+          visibility: hidden
+          display: none
+      .search.is-open
+      .results
+        display: none
+        .track
+          .album-cover
+            width: 64px
+            height: 64px
+          .track-name
+          .artist-name
+          .year-release

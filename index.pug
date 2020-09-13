@@ -5,19 +5,20 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
 
     title Bice-Challenge
-  link(rel="stylesheet", href="style/css/index.css")
+  link(rel="stylesheet", href="static/css/index.css")
   body
     section.container  
       article.search-spotify
+        h1 Bice-challenge
         .search
-          include style/pug/icon-search.pug
+          include static/pug/icon-search.pug
           input(type="text" placeholder="Search an album or artist")
           button(type="button")
             p search
         ul.results
 
           li.track
-            img.album-cover(src="/", alt="album name")
-            p.track-name
-            p.artist-name
-            p.year-release
+            img.album-cover(src="static/img/cover.jpg", alt="album name")
+            p.track-name Darlene - Remaster
+            p.artist-name Led Zeppelin
+            p.year-release 1982
