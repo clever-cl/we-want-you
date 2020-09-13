@@ -1,7 +1,7 @@
 @import 'vars'
 @import 'reset'
 @import 'devices'
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap')
 
 body
   display: grid
@@ -15,45 +15,125 @@ body
     border-radius: 24px
     width: 480px
     padding: 16px
-    background: $white
+    background: rgba(255,255,255,0.02)
     .search-spotify
       display: flex
       align-items: center
+      flex-wrap: wrap
       h1
         font-family: 'Nunito'
+        font-weight: 600
         font-size: 2rem
-        color: $dark
-        width: 100%
+        color: $white
+        width: 400px
+      .is-hidden
+        opacity: 0
+        width: 0
+        height: 0
       .search
         min-height: 48px
         min-width: 48px
         border-radius: 32px
-        background: $accent
+        background: $white
         display: flex
         justify-content: center
         align-items: center
         box-shadow: 0px 2px 2px rgba(0,0,0,0.25)
+        transition: all .3s ease 0s
         svg
-          fill: $white
+          fill: $accent
           margin: 8px
           width: 24px
           height: 24px
           transform: rotate(90deg)
-        input
-          border: none
-          visibility: hidden
-          display: none
-        button
-          opacity: 0
-          visibility: hidden
-          display: none
+          transition: all .4s ease .6s
+          opacity: 1
+          cursor: pointer
+        .input-holder
+          width: 0
+          position: relative
+          display: flex
+          transition: all 0.6s cubic-bezier(.51,.92,.24,1.15) .5s
+          input
+            border: 0
+            visibility: hidden
+            display: block
+            width: 0px
+            font-size: 1.1rem
+            padding: 8px
+            opacity: 0
+            transition: all .3s ease .5s
+          button
+            width: 0
+            opacity: 0
+            visibility: hidden
+            display: none
+            // transition: all .3s ease .5s
       .search.is-open
+        background: $white
+        width: 100%
+        box-shadow: none
+        justify-content: flex-end
+        display: flex
+        overflow: hidden
+        // transition-delay: 0.1s
+        box-shadow: 0px 2px 2px rgba(0,0,0,0.4)
+        svg
+          transform: rotate(0deg)
+          fill: $accent
+          transition-delay: 0s
+        .input-holder
+          width: 100%
+          transition-delay: 0s
+          input
+            visibility: visible
+            display: flex
+            opacity: 1
+            width: 70%
+            color: $light-grey
+            // transition-delay: 0.2s
+            &:focus
+              outline: none
+              color: $dark
+          button
+            visibility: visible
+            opacity: 1
+            width: 30%
+            display: flex
+            // transition-delay: 0.4s
       .results
-        display: none
+        margin-top: 48px
+        display: flex
+        width: 100%
+        flex-wrap: wrap
+        // padding: 16px
+        // background: rgba(255,255,255,0.5)
+        border-radius: 16px
         .track
+          display: flex
+          background: $white
+          padding: 8px
+          border-radius: 8px
+          width: 100%
+          margin-bottom: 8px
           .album-cover
             width: 64px
             height: 64px
-          .track-name
-          .artist-name
-          .year-release
+          .info
+            display: flex
+            flex-direction: column
+            padding: 0 0 0 8px
+            font-family: 'Nunito'
+            width: 100%
+            justify-content: space-around
+            .track-name
+              width: 100%
+              font-size: 1.3rem
+              font-weight: 600
+            .artist-name
+              width: 100%
+              font-size: 1rem
+              margin-top: 8px
+            .year-release
+              width: 100%
+              font-size: 0.7rem

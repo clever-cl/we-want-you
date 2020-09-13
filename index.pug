@@ -9,16 +9,29 @@ html(lang="en")
   body
     section.container  
       article.search-spotify
-        h1 Bice-challenge
-        .search
+        h1.title Bice-challenge
+        #search.search
           include static/pug/icon-search.pug
-          input(type="text" placeholder="Search an album or artist")
-          button(type="button")
-            p search
+          .input-holder
+            input(type="text" placeholder="Search album or artist").input-field
+            //- button(type="button")
+            //-   p Search
         ul.results
 
           li.track
             img.album-cover(src="static/img/cover.jpg", alt="album name")
-            p.track-name Darlene - Remaster
-            p.artist-name Led Zeppelin
-            p.year-release 1982
+            .info
+              p.track-name Darlene - Remaster
+              p.artist-name Led Zeppelin
+              p.year-release 1982
+          li.track
+            img.album-cover(src="static/img/cover.jpg", alt="album name")
+            .info
+              p.track-name Darlene - Remaster
+              p.artist-name Led Zeppelin
+              p.year-release 1982
+
+
+
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js")
+    script(src="static/js/index.js")
