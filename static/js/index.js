@@ -3,8 +3,6 @@ $(document).ready(function(){
   $('#search').each(function(){
     var placeholder = $('input').attr('placeholder')
     var placeholderArray = placeholder.split(/ +/)
-    console.log(placeholder)
-    console.log(placeholderArray)
     if(placeholderArray.length){
       var spans = $('<div/>')
       $.each(placeholderArray, 
@@ -22,7 +20,6 @@ $(document).ready(function(){
         }, 750)
       })
     $(document).click(function(e) {
-      console.log("hola")
       if(!$(e.target).is($('#search')) && !jQuery.contains($('#search')[0], e.target)) {
         $('#search').removeClass('is-open')
         $('.title').removeClass('is-hidden')
