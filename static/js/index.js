@@ -26,7 +26,7 @@ $(document).ready(function(){
       if(!$(e.target).is($('#search')) && !jQuery.contains($('#search')[0], e.target)) {
         $('#search').removeClass('is-open')
         $('.title').removeClass('is-hidden')
-        $('.search-button').toggle()
+        $('.search-button').toggle() // is better to add and remove classes, toggle is an ugly solution
       }
     })
   })
