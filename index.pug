@@ -9,21 +9,17 @@ html(lang="en")
   body
     section.container  
       article.search-spotify
-        h1.title Bice-challenge
+        .title
+          h1 Bice-challenge
         #search.search
           include static/pug/icon-search.pug
           .input-holder
             input(type="text" placeholder="Search album or artist").input-field
-            //- button(type="button")
-            //-   p Search
+        .action-bar
+          button(type="button").search-button
+            p Search
         ul.results
 
-          li.track
-            img.album-cover(src="static/img/cover.jpg", alt="album name")
-            .info
-              p.track-name Darlene - Remaster
-              p.artist-name Led Zeppelin
-              p.year-release 1982
           li.track
             img.album-cover(src="static/img/cover.jpg", alt="album name")
             .info
