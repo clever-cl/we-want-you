@@ -21,6 +21,7 @@ module WeWantYou
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
+    config.time_zone = 'America/Santiago'
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
@@ -29,5 +30,12 @@ module WeWantYou
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # Generators config to work with RSpec
+    config.generators do |g|
+      g.test_framework :rspec, fixture: true
+      g.fixture_replacement :factory_bot
+      g.factory_bot dir: 'spec/factories'
+    end
   end
 end
