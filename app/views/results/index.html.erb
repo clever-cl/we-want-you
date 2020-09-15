@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Results</h1>
+
+<table id="results-table">
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Name</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @results.each do |result| %>
+      <tr id="results-list">
+        <td><%= result.result_type %></td>
+        <td><%= result.name %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
