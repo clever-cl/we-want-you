@@ -16,6 +16,6 @@ RSpec.describe Result, type: :model do
   end
 
   describe 'Other Definitions' do
-    it { should define_enum_for(:result_type).with_values(%i[artist album]) }
+    it { should define_enum_for(:result_type).with_values(%i[album artist]) }
   end
 end
