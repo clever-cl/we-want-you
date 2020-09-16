@@ -8,7 +8,7 @@ RSpec.describe 'Searching an album or artists', type: :feature do
       visit root_path
       fill_in 'q', with: 'ariana'
       click_on 'Search'
-      expect(page).to have_content('grande')
+      expect(page).to have_content(/grande/i)
     end
   end
 end
