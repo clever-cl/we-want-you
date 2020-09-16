@@ -1,5 +1,12 @@
 <p id="notice"><%= notice %></p>
 
+<h1>Searchs</h1>
+
+<%= form_with(url: results_path, method: :get, local: true) do |f| %>
+  <%= text_field_tag('q', @query) %>
+  <%= submit_tag('Search') %>
+<% end %>
+
 <h1>Results</h1>
 
 <table id="results-table">
