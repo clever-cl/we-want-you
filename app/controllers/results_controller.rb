@@ -3,6 +3,15 @@
 class ResultsController < ApplicationController
   # GET /results
   def index
-    @results = Result.all
+    # TODO: Add Pagination
+    @query = query_params[:q]
+    Result.search_and_save(@query)
+    @results = @query.present? ? Result.filter_by_query(@query) : Result.all
+  end
+
+  private
+
+  def query_params
+    params.permit(:q)
   end
 end
