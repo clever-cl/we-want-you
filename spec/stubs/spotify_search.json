@@ -1,0 +1,3317 @@
+{
+  "albums": {
+      "href": "https://api.spotify.com/v1/search?query=britney&type=album&offset=0&limit=20",
+      "items": [
+          {
+              "album_type": "album",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/26dSoYclwsYLMAKD3tpOr4"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/26dSoYclwsYLMAKD3tpOr4",
+                      "id": "26dSoYclwsYLMAKD3tpOr4",
+                      "name": "Britney Spears",
+                      "type": "artist",
+                      "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4"
+                  }
+              ],
+              "available_markets": [
+                  "AD",
+                  "AE",
+                  "AL",
+                  "AR",
+                  "AT",
+                  "AU",
+                  "BA",
+                  "BE",
+                  "BG",
+                  "BH",
+                  "BO",
+                  "BR",
+                  "BY",
+                  "CA",
+                  "CH",
+                  "CL",
+                  "CO",
+                  "CR",
+                  "CY",
+                  "CZ",
+                  "DE",
+                  "DK",
+                  "DO",
+                  "DZ",
+                  "EC",
+                  "EE",
+                  "EG",
+                  "ES",
+                  "FI",
+                  "FR",
+                  "GB",
+                  "GR",
+                  "GT",
+                  "HK",
+                  "HN",
+                  "HR",
+                  "HU",
+                  "ID",
+                  "IE",
+                  "IL",
+                  "IN",
+                  "IS",
+                  "IT",
+                  "JO",
+                  "JP",
+                  "KW",
+                  "KZ",
+                  "LB",
+                  "LI",
+                  "LT",
+                  "LU",
+                  "LV",
+                  "MA",
+                  "MC",
+                  "MD",
+                  "ME",
+                  "MK",
+                  "MT",
+                  "MX",
+                  "MY",
+                  "NI",
+                  "NL",
+                  "NO",
+                  "NZ",
+                  "OM",
+                  "PA",
+                  "PE",
+                  "PH",
+                  "PL",
+                  "PS",
+                  "PT",
+                  "PY",
+                  "QA",
+                  "RO",
+                  "RS",
+                  "RU",
+                  "SA",
+                  "SE",
+                  "SG",
+                  "SI",
+                  "SK",
+                  "SV",
+                  "TH",
+                  "TN",
+                  "TR",
+                  "TW",
+                  "UA",
+                  "US",
+                  "UY",
+                  "VN",
+                  "XK",
+                  "ZA"
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/5ax3GTsfX5uCUaNgnJsSG5"
+              },
+              "href": "https://api.spotify.com/v1/albums/5ax3GTsfX5uCUaNgnJsSG5",
+              "id": "5ax3GTsfX5uCUaNgnJsSG5",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273e1a4e01cb7a1ecff468bbead",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02e1a4e01cb7a1ecff468bbead",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851e1a4e01cb7a1ecff468bbead",
+                      "width": 64
+                  }
+              ],
+              "name": "Britney (Digital Deluxe Version)",
+              "release_date": "2001-10-31",
+              "release_date_precision": "day",
+              "total_tracks": 15,
+              "type": "album",
+              "uri": "spotify:album:5ax3GTsfX5uCUaNgnJsSG5"
+          },
+          {
+              "album_type": "album",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/26dSoYclwsYLMAKD3tpOr4"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/26dSoYclwsYLMAKD3tpOr4",
+                      "id": "26dSoYclwsYLMAKD3tpOr4",
+                      "name": "Britney Spears",
+                      "type": "artist",
+                      "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4"
+                  }
+              ],
+              "available_markets": [
+                  "AD",
+                  "AE",
+                  "AL",
+                  "AR",
+                  "AT",
+                  "AU",
+                  "BA",
+                  "BE",
+                  "BG",
+                  "BH",
+                  "BO",
+                  "BR",
+                  "CA",
+                  "CH",
+                  "CL",
+                  "CO",
+                  "CR",
+                  "CY",
+                  "CZ",
+                  "DE",
+                  "DK",
+                  "DO",
+                  "DZ",
+                  "EC",
+                  "EE",
+                  "EG",
+                  "ES",
+                  "FI",
+                  "FR",
+                  "GB",
+                  "GR",
+                  "GT",
+                  "HK",
+                  "HN",
+                  "HR",
+                  "HU",
+                  "ID",
+                  "IE",
+                  "IL",
+                  "IN",
+                  "IS",
+                  "IT",
+                  "JO",
+                  "JP",
+                  "KW",
+                  "LB",
+                  "LI",
+                  "LT",
+                  "LU",
+                  "LV",
+                  "MA",
+                  "MC",
+                  "ME",
+                  "MK",
+                  "MT",
+                  "MX",
+                  "MY",
+                  "NI",
+                  "NL",
+                  "NO",
+                  "NZ",
+                  "OM",
+                  "PA",
+                  "PE",
+                  "PH",
+                  "PL",
+                  "PS",
+                  "PT",
+                  "PY",
+                  "QA",
+                  "RO",
+                  "RS",
+                  "SA",
+                  "SE",
+                  "SG",
+                  "SI",
+                  "SK",
+                  "SV",
+                  "TH",
+                  "TN",
+                  "TR",
+                  "TW",
+                  "US",
+                  "UY",
+                  "VN",
+                  "XK",
+                  "ZA"
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/5rlB2HPoNHg2m1wmmh0TRv"
+              },
+              "href": "https://api.spotify.com/v1/albums/5rlB2HPoNHg2m1wmmh0TRv",
+              "id": "5rlB2HPoNHg2m1wmmh0TRv",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b2733c9f7b8faf039c7607d12255",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e023c9f7b8faf039c7607d12255",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d000048513c9f7b8faf039c7607d12255",
+                      "width": 64
+                  }
+              ],
+              "name": "Britney Jean (Deluxe Version)",
+              "release_date": "2013-11-30",
+              "release_date_precision": "day",
+              "total_tracks": 14,
+              "type": "album",
+              "uri": "spotify:album:5rlB2HPoNHg2m1wmmh0TRv"
+          },
+          {
+              "album_type": "album",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/26dSoYclwsYLMAKD3tpOr4"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/26dSoYclwsYLMAKD3tpOr4",
+                      "id": "26dSoYclwsYLMAKD3tpOr4",
+                      "name": "Britney Spears",
+                      "type": "artist",
+                      "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4"
+                  }
+              ],
+              "available_markets": [
+                  "AD",
+                  "AE",
+                  "AL",
+                  "AR",
+                  "AT",
+                  "AU",
+                  "BA",
+                  "BE",
+                  "BG",
+                  "BH",
+                  "BO",
+                  "BR",
+                  "BY",
+                  "CA",
+                  "CH",
+                  "CL",
+                  "CO",
+                  "CR",
+                  "CY",
+                  "CZ",
+                  "DE",
+                  "DK",
+                  "DO",
+                  "DZ",
+                  "EC",
+                  "EE",
+                  "EG",
+                  "ES",
+                  "FI",
+                  "FR",
+                  "GB",
+                  "GR",
+                  "GT",
+                  "HK",
+                  "HN",
+                  "HR",
+                  "HU",
+                  "ID",
+                  "IE",
+                  "IL",
+                  "IN",
+                  "IS",
+                  "IT",
+                  "JO",
+                  "JP",
+                  "KW",
+                  "KZ",
+                  "LB",
+                  "LI",
+                  "LT",
+                  "LU",
+                  "LV",
+                  "MA",
+                  "MC",
+                  "MD",
+                  "ME",
+                  "MK",
+                  "MT",
+                  "MX",
+                  "MY",
+                  "NI",
+                  "NL",
+                  "NO",
+                  "NZ",
+                  "OM",
+                  "PA",
+                  "PE",
+                  "PH",
+                  "PL",
+                  "PS",
+                  "PT",
+                  "PY",
+                  "QA",
+                  "RO",
+                  "RS",
+                  "RU",
+                  "SA",
+                  "SE",
+                  "SG",
+                  "SI",
+                  "SK",
+                  "SV",
+                  "TH",
+                  "TN",
+                  "TR",
+                  "TW",
+                  "UA",
+                  "US",
+                  "UY",
+                  "VN",
+                  "XK",
+                  "ZA"
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/5PmgtkodFl2Om3hMXONDll"
+              },
+              "href": "https://api.spotify.com/v1/albums/5PmgtkodFl2Om3hMXONDll",
+              "id": "5PmgtkodFl2Om3hMXONDll",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b2732aa20611c7fb964a74ab01a6",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e022aa20611c7fb964a74ab01a6",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d000048512aa20611c7fb964a74ab01a6",
+                      "width": 64
+                  }
+              ],
+              "name": "Oops!... I Did It Again",
+              "release_date": "2000-05-16",
+              "release_date_precision": "day",
+              "total_tracks": 12,
+              "type": "album",
+              "uri": "spotify:album:5PmgtkodFl2Om3hMXONDll"
+          },
+          {
+              "album_type": "album",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/26dSoYclwsYLMAKD3tpOr4"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/26dSoYclwsYLMAKD3tpOr4",
+                      "id": "26dSoYclwsYLMAKD3tpOr4",
+                      "name": "Britney Spears",
+                      "type": "artist",
+                      "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4"
+                  }
+              ],
+              "available_markets": [
+                  "AD",
+                  "AE",
+                  "AL",
+                  "AR",
+                  "AT",
+                  "AU",
+                  "BA",
+                  "BE",
+                  "BG",
+                  "BH",
+                  "BO",
+                  "BR",
+                  "BY",
+                  "CA",
+                  "CH",
+                  "CL",
+                  "CO",
+                  "CR",
+                  "CY",
+                  "CZ",
+                  "DE",
+                  "DK",
+                  "DO",
+                  "DZ",
+                  "EC",
+                  "EE",
+                  "EG",
+                  "ES",
+                  "FI",
+                  "FR",
+                  "GB",
+                  "GR",
+                  "GT",
+                  "HK",
+                  "HN",
+                  "HR",
+                  "HU",
+                  "ID",
+                  "IE",
+                  "IL",
+                  "IN",
+                  "IS",
+                  "IT",
+                  "JO",
+                  "JP",
+                  "KW",
+                  "KZ",
+                  "LB",
+                  "LI",
+                  "LT",
+                  "LU",
+                  "LV",
+                  "MA",
+                  "MC",
+                  "MD",
+                  "ME",
+                  "MK",
+                  "MT",
+                  "MX",
+                  "MY",
+                  "NI",
+                  "NL",
+                  "NO",
+                  "NZ",
+                  "OM",
+                  "PA",
+                  "PE",
+                  "PH",
+                  "PL",
+                  "PS",
+                  "PT",
+                  "PY",
+                  "QA",
+                  "RO",
+                  "RS",
+                  "RU",
+                  "SA",
+                  "SE",
+                  "SG",
+                  "SI",
+                  "SK",
+                  "SV",
+                  "TH",
+                  "TN",
+                  "TR",
+                  "TW",
+                  "UA",
+                  "US",
+                  "UY",
+                  "VN",
+                  "XK",
+                  "ZA"
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/2tve5DGwub1TtbX1khPX5j"
+              },
+              "href": "https://api.spotify.com/v1/albums/2tve5DGwub1TtbX1khPX5j",
+              "id": "2tve5DGwub1TtbX1khPX5j",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b27354c6edd554935d73e159e199",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e0254c6edd554935d73e159e199",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d0000485154c6edd554935d73e159e199",
+                      "width": 64
+                  }
+              ],
+              "name": "Circus (Deluxe Version)",
+              "release_date": "2008-12-02",
+              "release_date_precision": "day",
+              "total_tracks": 15,
+              "type": "album",
+              "uri": "spotify:album:2tve5DGwub1TtbX1khPX5j"
+          },
+          {
+              "album_type": "album",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/26dSoYclwsYLMAKD3tpOr4"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/26dSoYclwsYLMAKD3tpOr4",
+                      "id": "26dSoYclwsYLMAKD3tpOr4",
+                      "name": "Britney Spears",
+                      "type": "artist",
+                      "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4"
+                  }
+              ],
+              "available_markets": [
+                  "AD",
+                  "AE",
+                  "AL",
+                  "AR",
+                  "AT",
+                  "AU",
+                  "BA",
+                  "BE",
+                  "BG",
+                  "BH",
+                  "BO",
+                  "BR",
+                  "BY",
+                  "CA",
+                  "CH",
+                  "CL",
+                  "CO",
+                  "CR",
+                  "CY",
+                  "CZ",
+                  "DE",
+                  "DK",
+                  "DO",
+                  "DZ",
+                  "EC",
+                  "EE",
+                  "EG",
+                  "ES",
+                  "FI",
+                  "FR",
+                  "GB",
+                  "GR",
+                  "GT",
+                  "HK",
+                  "HN",
+                  "HR",
+                  "HU",
+                  "ID",
+                  "IE",
+                  "IL",
+                  "IN",
+                  "IS",
+                  "IT",
+                  "JO",
+                  "JP",
+                  "KW",
+                  "KZ",
+                  "LB",
+                  "LI",
+                  "LT",
+                  "LU",
+                  "LV",
+                  "MA",
+                  "MC",
+                  "MD",
+                  "ME",
+                  "MK",
+                  "MT",
+                  "MX",
+                  "MY",
+                  "NI",
+                  "NL",
+                  "NO",
+                  "NZ",
+                  "OM",
+                  "PA",
+                  "PE",
+                  "PH",
+                  "PL",
+                  "PS",
+                  "PT",
+                  "PY",
+                  "QA",
+                  "RO",
+                  "RS",
+                  "RU",
+                  "SA",
+                  "SE",
+                  "SG",
+                  "SI",
+                  "SK",
+                  "SV",
+                  "TH",
+                  "TN",
+                  "TR",
+                  "TW",
+                  "UA",
+                  "US",
+                  "UY",
+                  "VN",
+                  "XK",
+                  "ZA"
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/0z7pVBGOD7HCIB7S8eLkLI"
+              },
+              "href": "https://api.spotify.com/v1/albums/0z7pVBGOD7HCIB7S8eLkLI",
+              "id": "0z7pVBGOD7HCIB7S8eLkLI",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273efc6988972cb04105f002cd4",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02efc6988972cb04105f002cd4",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851efc6988972cb04105f002cd4",
+                      "width": 64
+                  }
+              ],
+              "name": "In The Zone",
+              "release_date": "2003-11-13",
+              "release_date_precision": "day",
+              "total_tracks": 13,
+              "type": "album",
+              "uri": "spotify:album:0z7pVBGOD7HCIB7S8eLkLI"
+          },
+          {
+              "album_type": "album",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/26dSoYclwsYLMAKD3tpOr4"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/26dSoYclwsYLMAKD3tpOr4",
+                      "id": "26dSoYclwsYLMAKD3tpOr4",
+                      "name": "Britney Spears",
+                      "type": "artist",
+                      "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4"
+                  }
+              ],
+              "available_markets": [
+                  "AD",
+                  "AE",
+                  "AL",
+                  "AR",
+                  "AT",
+                  "AU",
+                  "BA",
+                  "BE",
+                  "BG",
+                  "BH",
+                  "BO",
+                  "BR",
+                  "BY",
+                  "CA",
+                  "CH",
+                  "CL",
+                  "CO",
+                  "CR",
+                  "CY",
+                  "CZ",
+                  "DE",
+                  "DK",
+                  "DO",
+                  "DZ",
+                  "EC",
+                  "EE",
+                  "EG",
+                  "ES",
+                  "FI",
+                  "FR",
+                  "GB",
+                  "GR",
+                  "GT",
+                  "HK",
+                  "HN",
+                  "HR",
+                  "HU",
+                  "ID",
+                  "IE",
+                  "IL",
+                  "IN",
+                  "IS",
+                  "IT",
+                  "JO",
+                  "JP",
+                  "KW",
+                  "KZ",
+                  "LB",
+                  "LI",
+                  "LT",
+                  "LU",
+                  "LV",
+                  "MA",
+                  "MC",
+                  "MD",
+                  "ME",
+                  "MK",
+                  "MT",
+                  "MX",
+                  "MY",
+                  "NI",
+                  "NL",
+                  "NO",
+                  "NZ",
+                  "OM",
+                  "PA",
+                  "PE",
+                  "PH",
+                  "PL",
+                  "PS",
+                  "PT",
+                  "PY",
+                  "QA",
+                  "RO",
+                  "RS",
+                  "RU",
+                  "SA",
+                  "SE",
+                  "SG",
+                  "SI",
+                  "SK",
+                  "SV",
+                  "TH",
+                  "TN",
+                  "TR",
+                  "TW",
+                  "UA",
+                  "US",
+                  "UY",
+                  "VN",
+                  "XK",
+                  "ZA"
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/3WNxdumkSMGMJRhEgK80qx"
+              },
+              "href": "https://api.spotify.com/v1/albums/3WNxdumkSMGMJRhEgK80qx",
+              "id": "3WNxdumkSMGMJRhEgK80qx",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b2738e49866860c25afffe2f1a02",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e028e49866860c25afffe2f1a02",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d000048518e49866860c25afffe2f1a02",
+                      "width": 64
+                  }
+              ],
+              "name": "...Baby One More Time (Digital Deluxe Version)",
+              "release_date": "1999-01-12",
+              "release_date_precision": "day",
+              "total_tracks": 16,
+              "type": "album",
+              "uri": "spotify:album:3WNxdumkSMGMJRhEgK80qx"
+          },
+          {
+              "album_type": "album",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/26dSoYclwsYLMAKD3tpOr4"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/26dSoYclwsYLMAKD3tpOr4",
+                      "id": "26dSoYclwsYLMAKD3tpOr4",
+                      "name": "Britney Spears",
+                      "type": "artist",
+                      "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4"
+                  }
+              ],
+              "available_markets": [
+                  "AD",
+                  "AE",
+                  "AL",
+                  "AR",
+                  "AT",
+                  "AU",
+                  "BA",
+                  "BE",
+                  "BG",
+                  "BH",
+                  "BO",
+                  "BR",
+                  "BY",
+                  "CA",
+                  "CH",
+                  "CL",
+                  "CO",
+                  "CR",
+                  "CY",
+                  "CZ",
+                  "DE",
+                  "DK",
+                  "DO",
+                  "DZ",
+                  "EC",
+                  "EE",
+                  "EG",
+                  "ES",
+                  "FI",
+                  "FR",
+                  "GB",
+                  "GR",
+                  "GT",
+                  "HK",
+                  "HN",
+                  "HR",
+                  "HU",
+                  "ID",
+                  "IE",
+                  "IL",
+                  "IN",
+                  "IS",
+                  "IT",
+                  "JO",
+                  "JP",
+                  "KW",
+                  "KZ",
+                  "LB",
+                  "LI",
+                  "LT",
+                  "LU",
+                  "LV",
+                  "MA",
+                  "MC",
+                  "MD",
+                  "ME",
+                  "MK",
+                  "MT",
+                  "MX",
+                  "MY",
+                  "NI",
+                  "NL",
+                  "NO",
+                  "NZ",
+                  "OM",
+                  "PA",
+                  "PE",
+                  "PH",
+                  "PL",
+                  "PS",
+                  "PT",
+                  "PY",
+                  "QA",
+                  "RO",
+                  "RS",
+                  "RU",
+                  "SA",
+                  "SE",
+                  "SG",
+                  "SI",
+                  "SK",
+                  "SV",
+                  "TH",
+                  "TN",
+                  "TR",
+                  "TW",
+                  "UA",
+                  "US",
+                  "UY",
+                  "VN",
+                  "XK",
+                  "ZA"
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/1ePkYcH5ZQCb1b4tQeiEDj"
+              },
+              "href": "https://api.spotify.com/v1/albums/1ePkYcH5ZQCb1b4tQeiEDj",
+              "id": "1ePkYcH5ZQCb1b4tQeiEDj",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273ca10fae7d292c52f7e8b11ca",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02ca10fae7d292c52f7e8b11ca",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851ca10fae7d292c52f7e8b11ca",
+                      "width": 64
+                  }
+              ],
+              "name": "Blackout",
+              "release_date": "2007-10-25",
+              "release_date_precision": "day",
+              "total_tracks": 15,
+              "type": "album",
+              "uri": "spotify:album:1ePkYcH5ZQCb1b4tQeiEDj"
+          },
+          {
+              "album_type": "album",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/26dSoYclwsYLMAKD3tpOr4"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/26dSoYclwsYLMAKD3tpOr4",
+                      "id": "26dSoYclwsYLMAKD3tpOr4",
+                      "name": "Britney Spears",
+                      "type": "artist",
+                      "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4"
+                  }
+              ],
+              "available_markets": [
+                  "AD",
+                  "AE",
+                  "AL",
+                  "AR",
+                  "AT",
+                  "AU",
+                  "BA",
+                  "BE",
+                  "BG",
+                  "BH",
+                  "BO",
+                  "BR",
+                  "BY",
+                  "CA",
+                  "CH",
+                  "CL",
+                  "CO",
+                  "CR",
+                  "CY",
+                  "CZ",
+                  "DE",
+                  "DK",
+                  "DO",
+                  "DZ",
+                  "EC",
+                  "EE",
+                  "EG",
+                  "ES",
+                  "FI",
+                  "FR",
+                  "GB",
+                  "GR",
+                  "GT",
+                  "HK",
+                  "HN",
+                  "HR",
+                  "HU",
+                  "ID",
+                  "IE",
+                  "IL",
+                  "IN",
+                  "IS",
+                  "IT",
+                  "JO",
+                  "JP",
+                  "KW",
+                  "KZ",
+                  "LB",
+                  "LI",
+                  "LT",
+                  "LU",
+                  "LV",
+                  "MA",
+                  "MC",
+                  "MD",
+                  "ME",
+                  "MK",
+                  "MT",
+                  "MX",
+                  "MY",
+                  "NI",
+                  "NL",
+                  "NO",
+                  "NZ",
+                  "OM",
+                  "PA",
+                  "PE",
+                  "PH",
+                  "PL",
+                  "PS",
+                  "PT",
+                  "PY",
+                  "QA",
+                  "RO",
+                  "RS",
+                  "RU",
+                  "SA",
+                  "SE",
+                  "SG",
+                  "SI",
+                  "SK",
+                  "SV",
+                  "TH",
+                  "TN",
+                  "TR",
+                  "TW",
+                  "UA",
+                  "US",
+                  "UY",
+                  "VN",
+                  "XK",
+                  "ZA"
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/0oFBaXLFsUVa2gEmJf4FcJ"
+              },
+              "href": "https://api.spotify.com/v1/albums/0oFBaXLFsUVa2gEmJf4FcJ",
+              "id": "0oFBaXLFsUVa2gEmJf4FcJ",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273fda0f2adec40250bea55101b",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02fda0f2adec40250bea55101b",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851fda0f2adec40250bea55101b",
+                      "width": 64
+                  }
+              ],
+              "name": "Femme Fatale (Deluxe Version)",
+              "release_date": "2011-03-28",
+              "release_date_precision": "day",
+              "total_tracks": 16,
+              "type": "album",
+              "uri": "spotify:album:0oFBaXLFsUVa2gEmJf4FcJ"
+          },
+          {
+              "album_type": "album",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/0SCbttzoZTnLFebDYmAWCm"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/0SCbttzoZTnLFebDYmAWCm",
+                      "id": "0SCbttzoZTnLFebDYmAWCm",
+                      "name": "Glee Cast",
+                      "type": "artist",
+                      "uri": "spotify:artist:0SCbttzoZTnLFebDYmAWCm"
+                  }
+              ],
+              "available_markets": [
+                  "AD",
+                  "AE",
+                  "AL",
+                  "AR",
+                  "AT",
+                  "AU",
+                  "BA",
+                  "BE",
+                  "BG",
+                  "BH",
+                  "BO",
+                  "BR",
+                  "BY",
+                  "CA",
+                  "CH",
+                  "CL",
+                  "CO",
+                  "CR",
+                  "CY",
+                  "CZ",
+                  "DE",
+                  "DK",
+                  "DO",
+                  "DZ",
+                  "EC",
+                  "EE",
+                  "EG",
+                  "ES",
+                  "FI",
+                  "FR",
+                  "GB",
+                  "GR",
+                  "GT",
+                  "HK",
+                  "HN",
+                  "HR",
+                  "HU",
+                  "ID",
+                  "IE",
+                  "IL",
+                  "IN",
+                  "IS",
+                  "IT",
+                  "JO",
+                  "JP",
+                  "KW",
+                  "KZ",
+                  "LB",
+                  "LI",
+                  "LT",
+                  "LU",
+                  "LV",
+                  "MA",
+                  "MC",
+                  "MD",
+                  "ME",
+                  "MK",
+                  "MT",
+                  "MX",
+                  "MY",
+                  "NI",
+                  "NL",
+                  "NO",
+                  "NZ",
+                  "OM",
+                  "PA",
+                  "PE",
+                  "PH",
+                  "PL",
+                  "PS",
+                  "PT",
+                  "PY",
+                  "QA",
+                  "RO",
+                  "RS",
+                  "RU",
+                  "SA",
+                  "SE",
+                  "SG",
+                  "SI",
+                  "SK",
+                  "SV",
+                  "TH",
+                  "TN",
+                  "TR",
+                  "TW",
+                  "UA",
+                  "US",
+                  "UY",
+                  "VN",
+                  "XK",
+                  "ZA"
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/3dEFPWza2qaHqhyAPYU4Ah"
+              },
+              "href": "https://api.spotify.com/v1/albums/3dEFPWza2qaHqhyAPYU4Ah",
+              "id": "3dEFPWza2qaHqhyAPYU4Ah",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273d53c861f9472609c771112db",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02d53c861f9472609c771112db",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851d53c861f9472609c771112db",
+                      "width": 64
+                  }
+              ],
+              "name": "Britney 2.0",
+              "release_date": "2012-09-18",
+              "release_date_precision": "day",
+              "total_tracks": 8,
+              "type": "album",
+              "uri": "spotify:album:3dEFPWza2qaHqhyAPYU4Ah"
+          },
+          {
+              "album_type": "compilation",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/26dSoYclwsYLMAKD3tpOr4"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/26dSoYclwsYLMAKD3tpOr4",
+                      "id": "26dSoYclwsYLMAKD3tpOr4",
+                      "name": "Britney Spears",
+                      "type": "artist",
+                      "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4"
+                  }
+              ],
+              "available_markets": [
+                  "US"
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/574xhx2X0G9MkqACxqi4cg"
+              },
+              "href": "https://api.spotify.com/v1/albums/574xhx2X0G9MkqACxqi4cg",
+              "id": "574xhx2X0G9MkqACxqi4cg",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b2735028c2ac460025bffa43057e",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e025028c2ac460025bffa43057e",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d000048515028c2ac460025bffa43057e",
+                      "width": 64
+                  }
+              ],
+              "name": "Greatest Hits: My Prerogative",
+              "release_date": "2004",
+              "release_date_precision": "year",
+              "total_tracks": 22,
+              "type": "album",
+              "uri": "spotify:album:574xhx2X0G9MkqACxqi4cg"
+          },
+          {
+              "album_type": "single",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/7but14WsfXJkF8hm07xx6E"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/7but14WsfXJkF8hm07xx6E",
+                      "id": "7but14WsfXJkF8hm07xx6E",
+                      "name": "BLACKSTARKIDS",
+                      "type": "artist",
+                      "uri": "spotify:artist:7but14WsfXJkF8hm07xx6E"
+                  }
+              ],
+              "available_markets": [
+                  "AD",
+                  "AE",
+                  "AL",
+                  "AR",
+                  "AT",
+                  "AU",
+                  "BA",
+                  "BE",
+                  "BG",
+                  "BH",
+                  "BO",
+                  "BR",
+                  "BY",
+                  "CA",
+                  "CH",
+                  "CL",
+                  "CO",
+                  "CR",
+                  "CY",
+                  "CZ",
+                  "DE",
+                  "DK",
+                  "DO",
+                  "DZ",
+                  "EC",
+                  "EE",
+                  "EG",
+                  "ES",
+                  "FI",
+                  "FR",
+                  "GB",
+                  "GR",
+                  "GT",
+                  "HK",
+                  "HN",
+                  "HR",
+                  "HU",
+                  "ID",
+                  "IE",
+                  "IL",
+                  "IN",
+                  "IS",
+                  "IT",
+                  "JO",
+                  "JP",
+                  "KW",
+                  "KZ",
+                  "LB",
+                  "LI",
+                  "LT",
+                  "LU",
+                  "LV",
+                  "MA",
+                  "MC",
+                  "MD",
+                  "ME",
+                  "MK",
+                  "MT",
+                  "MX",
+                  "MY",
+                  "NI",
+                  "NL",
+                  "NO",
+                  "NZ",
+                  "OM",
+                  "PA",
+                  "PE",
+                  "PH",
+                  "PL",
+                  "PS",
+                  "PT",
+                  "PY",
+                  "QA",
+                  "RO",
+                  "RS",
+                  "RU",
+                  "SA",
+                  "SE",
+                  "SG",
+                  "SI",
+                  "SK",
+                  "SV",
+                  "TH",
+                  "TN",
+                  "TR",
+                  "TW",
+                  "UA",
+                  "US",
+                  "UY",
+                  "VN",
+                  "XK",
+                  "ZA"
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/54zDMqhMl0zzIZEQBWIks0"
+              },
+              "href": "https://api.spotify.com/v1/albums/54zDMqhMl0zzIZEQBWIks0",
+              "id": "54zDMqhMl0zzIZEQBWIks0",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273feaf38bf7d19cb1a8863a0cd",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02feaf38bf7d19cb1a8863a0cd",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851feaf38bf7d19cb1a8863a0cd",
+                      "width": 64
+                  }
+              ],
+              "name": "BRITNEY BITCH",
+              "release_date": "2020-08-27",
+              "release_date_precision": "day",
+              "total_tracks": 1,
+              "type": "album",
+              "uri": "spotify:album:54zDMqhMl0zzIZEQBWIks0"
+          },
+          {
+              "album_type": "album",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/26dSoYclwsYLMAKD3tpOr4"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/26dSoYclwsYLMAKD3tpOr4",
+                      "id": "26dSoYclwsYLMAKD3tpOr4",
+                      "name": "Britney Spears",
+                      "type": "artist",
+                      "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4"
+                  }
+              ],
+              "available_markets": [
+                  "AD",
+                  "AE",
+                  "AL",
+                  "AR",
+                  "AT",
+                  "AU",
+                  "BA",
+                  "BE",
+                  "BG",
+                  "BH",
+                  "BO",
+                  "BR",
+                  "BY",
+                  "CA",
+                  "CH",
+                  "CL",
+                  "CO",
+                  "CR",
+                  "CY",
+                  "CZ",
+                  "DE",
+                  "DK",
+                  "DO",
+                  "DZ",
+                  "EC",
+                  "EE",
+                  "EG",
+                  "ES",
+                  "FI",
+                  "FR",
+                  "GB",
+                  "GR",
+                  "GT",
+                  "HK",
+                  "HN",
+                  "HR",
+                  "HU",
+                  "ID",
+                  "IE",
+                  "IL",
+                  "IN",
+                  "IS",
+                  "IT",
+                  "JO",
+                  "JP",
+                  "KW",
+                  "KZ",
+                  "LB",
+                  "LI",
+                  "LT",
+                  "LU",
+                  "LV",
+                  "MA",
+                  "MC",
+                  "MD",
+                  "ME",
+                  "MK",
+                  "MT",
+                  "MX",
+                  "MY",
+                  "NI",
+                  "NL",
+                  "NO",
+                  "NZ",
+                  "OM",
+                  "PA",
+                  "PE",
+                  "PH",
+                  "PL",
+                  "PS",
+                  "PT",
+                  "PY",
+                  "QA",
+                  "RO",
+                  "RS",
+                  "RU",
+                  "SA",
+                  "SE",
+                  "SG",
+                  "SI",
+                  "SK",
+                  "SV",
+                  "TH",
+                  "TN",
+                  "TR",
+                  "TW",
+                  "UA",
+                  "US",
+                  "UY",
+                  "VN",
+                  "XK",
+                  "ZA"
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/7gALIuQHKvpZR8EtbNZ7qK"
+              },
+              "href": "https://api.spotify.com/v1/albums/7gALIuQHKvpZR8EtbNZ7qK",
+              "id": "7gALIuQHKvpZR8EtbNZ7qK",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b27349ddc55a9be6ca8b6b63182c",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e0249ddc55a9be6ca8b6b63182c",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d0000485149ddc55a9be6ca8b6b63182c",
+                      "width": 64
+                  }
+              ],
+              "name": "Glory (Deluxe Version)",
+              "release_date": "2016-08-26",
+              "release_date_precision": "day",
+              "total_tracks": 17,
+              "type": "album",
+              "uri": "spotify:album:7gALIuQHKvpZR8EtbNZ7qK"
+          },
+          {
+              "album_type": "compilation",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/26dSoYclwsYLMAKD3tpOr4"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/26dSoYclwsYLMAKD3tpOr4",
+                      "id": "26dSoYclwsYLMAKD3tpOr4",
+                      "name": "Britney Spears",
+                      "type": "artist",
+                      "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4"
+                  }
+              ],
+              "available_markets": [
+                  "AD",
+                  "AE",
+                  "AL",
+                  "AR",
+                  "AT",
+                  "AU",
+                  "BA",
+                  "BE",
+                  "BG",
+                  "BH",
+                  "BO",
+                  "BR",
+                  "BY",
+                  "CA",
+                  "CH",
+                  "CL",
+                  "CO",
+                  "CR",
+                  "CY",
+                  "CZ",
+                  "DE",
+                  "DK",
+                  "DO",
+                  "DZ",
+                  "EC",
+                  "EE",
+                  "EG",
+                  "ES",
+                  "FI",
+                  "FR",
+                  "GB",
+                  "GR",
+                  "GT",
+                  "HK",
+                  "HN",
+                  "HR",
+                  "HU",
+                  "ID",
+                  "IE",
+                  "IL",
+                  "IN",
+                  "IS",
+                  "IT",
+                  "JO",
+                  "JP",
+                  "KW",
+                  "KZ",
+                  "LB",
+                  "LI",
+                  "LT",
+                  "LU",
+                  "LV",
+                  "MA",
+                  "MC",
+                  "MD",
+                  "ME",
+                  "MK",
+                  "MT",
+                  "MX",
+                  "MY",
+                  "NI",
+                  "NL",
+                  "NO",
+                  "NZ",
+                  "OM",
+                  "PA",
+                  "PE",
+                  "PH",
+                  "PL",
+                  "PS",
+                  "PT",
+                  "PY",
+                  "QA",
+                  "RO",
+                  "RS",
+                  "RU",
+                  "SA",
+                  "SE",
+                  "SG",
+                  "SI",
+                  "SK",
+                  "SV",
+                  "TH",
+                  "TN",
+                  "TR",
+                  "TW",
+                  "UA",
+                  "US",
+                  "UY",
+                  "VN",
+                  "XK",
+                  "ZA"
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/325wcm5wMnlfjmKZ8PXIIn"
+              },
+              "href": "https://api.spotify.com/v1/albums/325wcm5wMnlfjmKZ8PXIIn",
+              "id": "325wcm5wMnlfjmKZ8PXIIn",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273cc8fa71a43ad87783b3f64be",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02cc8fa71a43ad87783b3f64be",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851cc8fa71a43ad87783b3f64be",
+                      "width": 64
+                  }
+              ],
+              "name": "The Singles Collection",
+              "release_date": "2009-11-09",
+              "release_date_precision": "day",
+              "total_tracks": 58,
+              "type": "album",
+              "uri": "spotify:album:325wcm5wMnlfjmKZ8PXIIn"
+          },
+          {
+              "album_type": "compilation",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/26dSoYclwsYLMAKD3tpOr4"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/26dSoYclwsYLMAKD3tpOr4",
+                      "id": "26dSoYclwsYLMAKD3tpOr4",
+                      "name": "Britney Spears",
+                      "type": "artist",
+                      "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4"
+                  }
+              ],
+              "available_markets": [
+                  "AD",
+                  "AE",
+                  "AL",
+                  "AR",
+                  "AT",
+                  "AU",
+                  "BA",
+                  "BE",
+                  "BG",
+                  "BH",
+                  "BO",
+                  "BR",
+                  "BY",
+                  "CA",
+                  "CH",
+                  "CL",
+                  "CO",
+                  "CR",
+                  "CY",
+                  "CZ",
+                  "DE",
+                  "DK",
+                  "DO",
+                  "DZ",
+                  "EC",
+                  "EE",
+                  "EG",
+                  "ES",
+                  "FI",
+                  "FR",
+                  "GB",
+                  "GR",
+                  "GT",
+                  "HK",
+                  "HN",
+                  "HR",
+                  "HU",
+                  "ID",
+                  "IE",
+                  "IL",
+                  "IN",
+                  "IS",
+                  "IT",
+                  "JO",
+                  "JP",
+                  "KW",
+                  "KZ",
+                  "LB",
+                  "LI",
+                  "LT",
+                  "LU",
+                  "LV",
+                  "MA",
+                  "MC",
+                  "MD",
+                  "ME",
+                  "MK",
+                  "MT",
+                  "MX",
+                  "MY",
+                  "NI",
+                  "NL",
+                  "NO",
+                  "NZ",
+                  "OM",
+                  "PA",
+                  "PE",
+                  "PH",
+                  "PL",
+                  "PS",
+                  "PT",
+                  "PY",
+                  "QA",
+                  "RO",
+                  "RS",
+                  "RU",
+                  "SA",
+                  "SE",
+                  "SG",
+                  "SI",
+                  "SK",
+                  "SV",
+                  "TH",
+                  "TN",
+                  "TR",
+                  "TW",
+                  "UA",
+                  "US",
+                  "UY",
+                  "VN",
+                  "XK",
+                  "ZA"
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/2ti2e8J05nwg9ikcMjW8aS"
+              },
+              "href": "https://api.spotify.com/v1/albums/2ti2e8J05nwg9ikcMjW8aS",
+              "id": "2ti2e8J05nwg9ikcMjW8aS",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273e2d88ce9b368639664aa7847",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02e2d88ce9b368639664aa7847",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851e2d88ce9b368639664aa7847",
+                      "width": 64
+                  }
+              ],
+              "name": "The Essential Britney Spears",
+              "release_date": "2014-07-29",
+              "release_date_precision": "day",
+              "total_tracks": 32,
+              "type": "album",
+              "uri": "spotify:album:2ti2e8J05nwg9ikcMjW8aS"
+          },
+          {
+              "album_type": "album",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/26dSoYclwsYLMAKD3tpOr4"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/26dSoYclwsYLMAKD3tpOr4",
+                      "id": "26dSoYclwsYLMAKD3tpOr4",
+                      "name": "Britney Spears",
+                      "type": "artist",
+                      "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4"
+                  }
+              ],
+              "available_markets": [
+                  "AD",
+                  "AE",
+                  "AL",
+                  "AR",
+                  "AT",
+                  "AU",
+                  "BA",
+                  "BE",
+                  "BG",
+                  "BH",
+                  "BO",
+                  "BR",
+                  "BY",
+                  "CA",
+                  "CH",
+                  "CL",
+                  "CO",
+                  "CR",
+                  "CY",
+                  "CZ",
+                  "DE",
+                  "DK",
+                  "DO",
+                  "DZ",
+                  "EC",
+                  "EE",
+                  "EG",
+                  "ES",
+                  "FI",
+                  "FR",
+                  "GB",
+                  "GR",
+                  "GT",
+                  "HK",
+                  "HN",
+                  "HR",
+                  "HU",
+                  "ID",
+                  "IE",
+                  "IL",
+                  "IN",
+                  "IS",
+                  "IT",
+                  "JO",
+                  "JP",
+                  "KW",
+                  "KZ",
+                  "LB",
+                  "LI",
+                  "LT",
+                  "LU",
+                  "LV",
+                  "MA",
+                  "MC",
+                  "MD",
+                  "ME",
+                  "MK",
+                  "MT",
+                  "MX",
+                  "MY",
+                  "NI",
+                  "NL",
+                  "NO",
+                  "NZ",
+                  "OM",
+                  "PA",
+                  "PE",
+                  "PH",
+                  "PL",
+                  "PS",
+                  "PT",
+                  "PY",
+                  "QA",
+                  "RO",
+                  "RS",
+                  "RU",
+                  "SA",
+                  "SE",
+                  "SG",
+                  "SI",
+                  "SK",
+                  "SV",
+                  "TH",
+                  "TN",
+                  "TR",
+                  "TW",
+                  "UA",
+                  "US",
+                  "UY",
+                  "VN",
+                  "XK",
+                  "ZA"
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/0lClVPlhguxP4NBWzKV0od"
+              },
+              "href": "https://api.spotify.com/v1/albums/0lClVPlhguxP4NBWzKV0od",
+              "id": "0lClVPlhguxP4NBWzKV0od",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b27348eac53ddb7057f3384951d2",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e0248eac53ddb7057f3384951d2",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d0000485148eac53ddb7057f3384951d2",
+                      "width": 64
+                  }
+              ],
+              "name": "Glory",
+              "release_date": "2020-05-29",
+              "release_date_precision": "day",
+              "total_tracks": 13,
+              "type": "album",
+              "uri": "spotify:album:0lClVPlhguxP4NBWzKV0od"
+          },
+          {
+              "album_type": "single",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/26dSoYclwsYLMAKD3tpOr4"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/26dSoYclwsYLMAKD3tpOr4",
+                      "id": "26dSoYclwsYLMAKD3tpOr4",
+                      "name": "Britney Spears",
+                      "type": "artist",
+                      "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4"
+                  },
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/5yG7ZAZafVaAlMTeBybKAL"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/5yG7ZAZafVaAlMTeBybKAL",
+                      "id": "5yG7ZAZafVaAlMTeBybKAL",
+                      "name": "Iggy Azalea",
+                      "type": "artist",
+                      "uri": "spotify:artist:5yG7ZAZafVaAlMTeBybKAL"
+                  }
+              ],
+              "available_markets": [
+                  "AD",
+                  "AE",
+                  "AL",
+                  "AR",
+                  "AT",
+                  "AU",
+                  "BA",
+                  "BE",
+                  "BG",
+                  "BH",
+                  "BO",
+                  "BR",
+                  "BY",
+                  "CA",
+                  "CH",
+                  "CL",
+                  "CO",
+                  "CR",
+                  "CY",
+                  "CZ",
+                  "DE",
+                  "DK",
+                  "DO",
+                  "DZ",
+                  "EC",
+                  "EE",
+                  "EG",
+                  "ES",
+                  "FI",
+                  "FR",
+                  "GB",
+                  "GR",
+                  "GT",
+                  "HK",
+                  "HN",
+                  "HR",
+                  "HU",
+                  "ID",
+                  "IE",
+                  "IL",
+                  "IN",
+                  "IS",
+                  "IT",
+                  "JO",
+                  "JP",
+                  "KW",
+                  "KZ",
+                  "LB",
+                  "LI",
+                  "LT",
+                  "LU",
+                  "LV",
+                  "MA",
+                  "MC",
+                  "MD",
+                  "ME",
+                  "MK",
+                  "MT",
+                  "MX",
+                  "MY",
+                  "NI",
+                  "NL",
+                  "NO",
+                  "NZ",
+                  "OM",
+                  "PA",
+                  "PE",
+                  "PH",
+                  "PL",
+                  "PS",
+                  "PT",
+                  "PY",
+                  "QA",
+                  "RO",
+                  "RS",
+                  "RU",
+                  "SA",
+                  "SE",
+                  "SG",
+                  "SI",
+                  "SK",
+                  "SV",
+                  "TH",
+                  "TN",
+                  "TR",
+                  "TW",
+                  "UA",
+                  "US",
+                  "UY",
+                  "VN",
+                  "XK",
+                  "ZA"
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/76LmTxakuFgfAmvUvEXz5S"
+              },
+              "href": "https://api.spotify.com/v1/albums/76LmTxakuFgfAmvUvEXz5S",
+              "id": "76LmTxakuFgfAmvUvEXz5S",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273f28d6d9035fae9d4c93f0e6a",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02f28d6d9035fae9d4c93f0e6a",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851f28d6d9035fae9d4c93f0e6a",
+                      "width": 64
+                  }
+              ],
+              "name": "Pretty Girls",
+              "release_date": "2015-05-04",
+              "release_date_precision": "day",
+              "total_tracks": 1,
+              "type": "album",
+              "uri": "spotify:album:76LmTxakuFgfAmvUvEXz5S"
+          },
+          {
+              "album_type": "single",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/26dSoYclwsYLMAKD3tpOr4"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/26dSoYclwsYLMAKD3tpOr4",
+                      "id": "26dSoYclwsYLMAKD3tpOr4",
+                      "name": "Britney Spears",
+                      "type": "artist",
+                      "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4"
+                  }
+              ],
+              "available_markets": [
+                  "AD",
+                  "AE",
+                  "AL",
+                  "AR",
+                  "AT",
+                  "AU",
+                  "BA",
+                  "BE",
+                  "BG",
+                  "BH",
+                  "BO",
+                  "BR",
+                  "BY",
+                  "CA",
+                  "CH",
+                  "CL",
+                  "CO",
+                  "CR",
+                  "CY",
+                  "CZ",
+                  "DE",
+                  "DK",
+                  "DO",
+                  "DZ",
+                  "EC",
+                  "EE",
+                  "EG",
+                  "ES",
+                  "FI",
+                  "FR",
+                  "GB",
+                  "GR",
+                  "GT",
+                  "HK",
+                  "HN",
+                  "HR",
+                  "HU",
+                  "ID",
+                  "IE",
+                  "IL",
+                  "IN",
+                  "IS",
+                  "IT",
+                  "JO",
+                  "JP",
+                  "KW",
+                  "KZ",
+                  "LB",
+                  "LI",
+                  "LT",
+                  "LU",
+                  "LV",
+                  "MA",
+                  "MC",
+                  "MD",
+                  "ME",
+                  "MK",
+                  "MT",
+                  "MX",
+                  "MY",
+                  "NI",
+                  "NL",
+                  "NO",
+                  "NZ",
+                  "OM",
+                  "PA",
+                  "PE",
+                  "PH",
+                  "PL",
+                  "PS",
+                  "PT",
+                  "PY",
+                  "QA",
+                  "RO",
+                  "RS",
+                  "RU",
+                  "SA",
+                  "SE",
+                  "SG",
+                  "SI",
+                  "SK",
+                  "SV",
+                  "TH",
+                  "TN",
+                  "TR",
+                  "TW",
+                  "UA",
+                  "US",
+                  "UY",
+                  "VN",
+                  "XK",
+                  "ZA"
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/5idVLi8TjIeC5VxNEtUsaA"
+              },
+              "href": "https://api.spotify.com/v1/albums/5idVLi8TjIeC5VxNEtUsaA",
+              "id": "5idVLi8TjIeC5VxNEtUsaA",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273615aed21b1e4b25f3c865d5c",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02615aed21b1e4b25f3c865d5c",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851615aed21b1e4b25f3c865d5c",
+                      "width": 64
+                  }
+              ],
+              "name": "Mood Ring (By Demand) [Remixes]",
+              "release_date": "2020-06-26",
+              "release_date_precision": "day",
+              "total_tracks": 2,
+              "type": "album",
+              "uri": "spotify:album:5idVLi8TjIeC5VxNEtUsaA"
+          },
+          {
+              "album_type": "single",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/26dSoYclwsYLMAKD3tpOr4"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/26dSoYclwsYLMAKD3tpOr4",
+                      "id": "26dSoYclwsYLMAKD3tpOr4",
+                      "name": "Britney Spears",
+                      "type": "artist",
+                      "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4"
+                  }
+              ],
+              "available_markets": [
+                  "AD",
+                  "AE",
+                  "AL",
+                  "AR",
+                  "AT",
+                  "AU",
+                  "BA",
+                  "BE",
+                  "BG",
+                  "BH",
+                  "BO",
+                  "BR",
+                  "BY",
+                  "CA",
+                  "CH",
+                  "CL",
+                  "CO",
+                  "CR",
+                  "CY",
+                  "CZ",
+                  "DE",
+                  "DK",
+                  "DO",
+                  "DZ",
+                  "EC",
+                  "EE",
+                  "EG",
+                  "ES",
+                  "FI",
+                  "FR",
+                  "GB",
+                  "GR",
+                  "GT",
+                  "HK",
+                  "HN",
+                  "HR",
+                  "HU",
+                  "ID",
+                  "IE",
+                  "IL",
+                  "IN",
+                  "IS",
+                  "IT",
+                  "JO",
+                  "JP",
+                  "KW",
+                  "KZ",
+                  "LB",
+                  "LI",
+                  "LT",
+                  "LU",
+                  "LV",
+                  "MA",
+                  "MC",
+                  "MD",
+                  "ME",
+                  "MK",
+                  "MT",
+                  "MX",
+                  "MY",
+                  "NI",
+                  "NL",
+                  "NO",
+                  "NZ",
+                  "OM",
+                  "PA",
+                  "PE",
+                  "PH",
+                  "PL",
+                  "PS",
+                  "PT",
+                  "PY",
+                  "QA",
+                  "RO",
+                  "RS",
+                  "RU",
+                  "SA",
+                  "SE",
+                  "SG",
+                  "SI",
+                  "SK",
+                  "SV",
+                  "TH",
+                  "TN",
+                  "TR",
+                  "TW",
+                  "UA",
+                  "US",
+                  "UY",
+                  "VN",
+                  "XK",
+                  "ZA"
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/1vTd9YWAo7zQVhWlDg5wE0"
+              },
+              "href": "https://api.spotify.com/v1/albums/1vTd9YWAo7zQVhWlDg5wE0",
+              "id": "1vTd9YWAo7zQVhWlDg5wE0",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b27316375bb1cbe9361608671099",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e0216375bb1cbe9361608671099",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d0000485116375bb1cbe9361608671099",
+                      "width": 64
+                  }
+              ],
+              "name": "Britney & Kevin: Chaotic DVD Bonus Audio",
+              "release_date": "2005-09-27",
+              "release_date_precision": "day",
+              "total_tracks": 3,
+              "type": "album",
+              "uri": "spotify:album:1vTd9YWAo7zQVhWlDg5wE0"
+          },
+          {
+              "album_type": "single",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/26dSoYclwsYLMAKD3tpOr4"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/26dSoYclwsYLMAKD3tpOr4",
+                      "id": "26dSoYclwsYLMAKD3tpOr4",
+                      "name": "Britney Spears",
+                      "type": "artist",
+                      "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4"
+                  },
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/6USMTwO0MNDnKte5a5h0xx"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/6USMTwO0MNDnKte5a5h0xx",
+                      "id": "6USMTwO0MNDnKte5a5h0xx",
+                      "name": "Y2K",
+                      "type": "artist",
+                      "uri": "spotify:artist:6USMTwO0MNDnKte5a5h0xx"
+                  },
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/1XwAo9UCt90soyw5V7U6LV"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/1XwAo9UCt90soyw5V7U6LV",
+                      "id": "1XwAo9UCt90soyw5V7U6LV",
+                      "name": "Alexander Lewis",
+                      "type": "artist",
+                      "uri": "spotify:artist:1XwAo9UCt90soyw5V7U6LV"
+                  }
+              ],
+              "available_markets": [
+                  "AD",
+                  "AE",
+                  "AL",
+                  "AR",
+                  "AT",
+                  "AU",
+                  "BA",
+                  "BE",
+                  "BG",
+                  "BH",
+                  "BO",
+                  "BR",
+                  "BY",
+                  "CA",
+                  "CH",
+                  "CL",
+                  "CO",
+                  "CR",
+                  "CY",
+                  "CZ",
+                  "DE",
+                  "DK",
+                  "DO",
+                  "DZ",
+                  "EC",
+                  "EE",
+                  "EG",
+                  "ES",
+                  "FI",
+                  "FR",
+                  "GB",
+                  "GR",
+                  "GT",
+                  "HK",
+                  "HN",
+                  "HR",
+                  "HU",
+                  "ID",
+                  "IE",
+                  "IL",
+                  "IN",
+                  "IS",
+                  "IT",
+                  "JO",
+                  "JP",
+                  "KW",
+                  "KZ",
+                  "LB",
+                  "LI",
+                  "LT",
+                  "LU",
+                  "LV",
+                  "MA",
+                  "MC",
+                  "MD",
+                  "ME",
+                  "MK",
+                  "MT",
+                  "MX",
+                  "MY",
+                  "NI",
+                  "NL",
+                  "NO",
+                  "NZ",
+                  "OM",
+                  "PA",
+                  "PE",
+                  "PH",
+                  "PL",
+                  "PS",
+                  "PT",
+                  "PY",
+                  "QA",
+                  "RO",
+                  "RS",
+                  "RU",
+                  "SA",
+                  "SE",
+                  "SG",
+                  "SI",
+                  "SK",
+                  "SV",
+                  "TH",
+                  "TN",
+                  "TR",
+                  "TW",
+                  "UA",
+                  "US",
+                  "UY",
+                  "VN",
+                  "XK",
+                  "ZA"
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/4ygFGtHmI1d7bEt2Rwp3Z6"
+              },
+              "href": "https://api.spotify.com/v1/albums/4ygFGtHmI1d7bEt2Rwp3Z6",
+              "id": "4ygFGtHmI1d7bEt2Rwp3Z6",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b27371c4c3087c137f63ae9ed94f",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e0271c4c3087c137f63ae9ed94f",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d0000485171c4c3087c137f63ae9ed94f",
+                      "width": 64
+                  }
+              ],
+              "name": "Toxic (Y2K & Alexander Lewis Remix)",
+              "release_date": "2020-01-31",
+              "release_date_precision": "day",
+              "total_tracks": 1,
+              "type": "album",
+              "uri": "spotify:album:4ygFGtHmI1d7bEt2Rwp3Z6"
+          },
+          {
+              "album_type": "single",
+              "artists": [
+                  {
+                      "external_urls": {
+                          "spotify": "https://open.spotify.com/artist/7BtP9ddB2rW3Q5TDfsI5YG"
+                      },
+                      "href": "https://api.spotify.com/v1/artists/7BtP9ddB2rW3Q5TDfsI5YG",
+                      "id": "7BtP9ddB2rW3Q5TDfsI5YG",
+                      "name": "Chelsea Collins",
+                      "type": "artist",
+                      "uri": "spotify:artist:7BtP9ddB2rW3Q5TDfsI5YG"
+                  }
+              ],
+              "available_markets": [
+                  "AD",
+                  "AE",
+                  "AL",
+                  "AR",
+                  "AT",
+                  "AU",
+                  "BA",
+                  "BE",
+                  "BG",
+                  "BH",
+                  "BO",
+                  "BR",
+                  "BY",
+                  "CA",
+                  "CH",
+                  "CL",
+                  "CO",
+                  "CR",
+                  "CY",
+                  "CZ",
+                  "DE",
+                  "DK",
+                  "DO",
+                  "DZ",
+                  "EC",
+                  "EE",
+                  "EG",
+                  "ES",
+                  "FI",
+                  "FR",
+                  "GB",
+                  "GR",
+                  "GT",
+                  "HK",
+                  "HN",
+                  "HR",
+                  "HU",
+                  "ID",
+                  "IE",
+                  "IL",
+                  "IN",
+                  "IS",
+                  "IT",
+                  "JO",
+                  "JP",
+                  "KW",
+                  "KZ",
+                  "LB",
+                  "LI",
+                  "LT",
+                  "LU",
+                  "LV",
+                  "MA",
+                  "MC",
+                  "MD",
+                  "ME",
+                  "MK",
+                  "MT",
+                  "MX",
+                  "MY",
+                  "NI",
+                  "NL",
+                  "NO",
+                  "NZ",
+                  "OM",
+                  "PA",
+                  "PE",
+                  "PH",
+                  "PL",
+                  "PS",
+                  "PT",
+                  "PY",
+                  "QA",
+                  "RO",
+                  "RS",
+                  "RU",
+                  "SA",
+                  "SE",
+                  "SG",
+                  "SI",
+                  "SK",
+                  "SV",
+                  "TH",
+                  "TN",
+                  "TR",
+                  "TW",
+                  "UA",
+                  "US",
+                  "UY",
+                  "VN",
+                  "XK",
+                  "ZA"
+              ],
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/album/3BGtXucgv1OBgeZPuWrDyr"
+              },
+              "href": "https://api.spotify.com/v1/albums/3BGtXucgv1OBgeZPuWrDyr",
+              "id": "3BGtXucgv1OBgeZPuWrDyr",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273800f0a10ba948c90c8613fa7",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02800f0a10ba948c90c8613fa7",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851800f0a10ba948c90c8613fa7",
+                      "width": 64
+                  }
+              ],
+              "name": "07 Britney",
+              "release_date": "2020-05-08",
+              "release_date_precision": "day",
+              "total_tracks": 1,
+              "type": "album",
+              "uri": "spotify:album:3BGtXucgv1OBgeZPuWrDyr"
+          }
+      ],
+      "limit": 20,
+      "next": "https://api.spotify.com/v1/search?query=britney&type=album&offset=20&limit=20",
+      "offset": 0,
+      "previous": null,
+      "total": 899
+  },
+  "artists": {
+      "href": "https://api.spotify.com/v1/search?query=britney&type=artist&offset=0&limit=20",
+      "items": [
+          {
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/26dSoYclwsYLMAKD3tpOr4"
+              },
+              "followers": {
+                  "href": null,
+                  "total": 7761587
+              },
+              "genres": [
+                  "dance pop",
+                  "pop",
+                  "pop rap",
+                  "post-teen pop"
+              ],
+              "href": "https://api.spotify.com/v1/artists/26dSoYclwsYLMAKD3tpOr4",
+              "id": "26dSoYclwsYLMAKD3tpOr4",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/3e47967513ccda2182b17a1b29c00810b8965bd9",
+                      "width": 640
+                  },
+                  {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/7daf8bcaebf7d084602274862aa3aa9d16a8bba8",
+                      "width": 320
+                  },
+                  {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/7f30820ca3cbee06e35197fb8376bb7b8ce747be",
+                      "width": 160
+                  }
+              ],
+              "name": "Britney Spears",
+              "popularity": 82,
+              "type": "artist",
+              "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4"
+          },
+          {
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6IKVNxBhkbqnigPd1VCuHc"
+              },
+              "followers": {
+                  "href": null,
+                  "total": 10
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/6IKVNxBhkbqnigPd1VCuHc",
+              "id": "6IKVNxBhkbqnigPd1VCuHc",
+              "images": [],
+              "name": "Britney O'Connor",
+              "popularity": 28,
+              "type": "artist",
+              "uri": "spotify:artist:6IKVNxBhkbqnigPd1VCuHc"
+          },
+          {
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/71UHOZdJy9UlGQw69XCUE1"
+              },
+              "followers": {
+                  "href": null,
+                  "total": 108
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/71UHOZdJy9UlGQw69XCUE1",
+              "id": "71UHOZdJy9UlGQw69XCUE1",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/3971d33b44ffcae5b273bc8d78e177dd480f2cbd",
+                      "width": 640
+                  },
+                  {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/882f397c8f45d5f4ca4b76a56e348e690cb26b3a",
+                      "width": 320
+                  },
+                  {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/b6790896c0387131d615b4f6971de29ccd2f350c",
+                      "width": 160
+                  }
+              ],
+              "name": "Britney Jayy",
+              "popularity": 15,
+              "type": "artist",
+              "uri": "spotify:artist:71UHOZdJy9UlGQw69XCUE1"
+          },
+          {
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/03cWGR3NUnQNmsaQQSEesx"
+              },
+              "followers": {
+                  "href": null,
+                  "total": 27
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/03cWGR3NUnQNmsaQQSEesx",
+              "id": "03cWGR3NUnQNmsaQQSEesx",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b27304e65b0150ea819342f4747d",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e0204e65b0150ea819342f4747d",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d0000485104e65b0150ea819342f4747d",
+                      "width": 64
+                  }
+              ],
+              "name": "Britney Heald",
+              "popularity": 9,
+              "type": "artist",
+              "uri": "spotify:artist:03cWGR3NUnQNmsaQQSEesx"
+          },
+          {
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/2yYwj3KocGouUipLjS8yKr"
+              },
+              "followers": {
+                  "href": null,
+                  "total": 574
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/2yYwj3KocGouUipLjS8yKr",
+              "id": "2yYwj3KocGouUipLjS8yKr",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/65656039eeb55523156e140316a961e2a7829cc7",
+                      "width": 640
+                  },
+                  {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/d179c5af88319a92e921c3daec01e0ce1853db93",
+                      "width": 320
+                  },
+                  {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/5b57ddfeb5a4454a7b742fbf97d65553a34daad4",
+                      "width": 160
+                  }
+              ],
+              "name": "Britney Holmes",
+              "popularity": 15,
+              "type": "artist",
+              "uri": "spotify:artist:2yYwj3KocGouUipLjS8yKr"
+          },
+          {
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6zfBLlUCGk6tskieM4VHUE"
+              },
+              "followers": {
+                  "href": null,
+                  "total": 29
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/6zfBLlUCGk6tskieM4VHUE",
+              "id": "6zfBLlUCGk6tskieM4VHUE",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/a39f8188794a8d11ec27482f23bc6f65f0deb90e",
+                      "width": 640
+                  },
+                  {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/3d1a01b1e6747074baa828ecbd0cd89738d363e9",
+                      "width": 320
+                  },
+                  {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/4926f824f4b89bac9d48f1ba94aece3edb362506",
+                      "width": 160
+                  }
+              ],
+              "name": "Britney DiTocco",
+              "popularity": 16,
+              "type": "artist",
+              "uri": "spotify:artist:6zfBLlUCGk6tskieM4VHUE"
+          },
+          {
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/1NrCzxQBuoRoh8q1ZRq83X"
+              },
+              "followers": {
+                  "href": null,
+                  "total": 1098
+              },
+              "genres": [
+                  "detroit indie"
+              ],
+              "href": "https://api.spotify.com/v1/artists/1NrCzxQBuoRoh8q1ZRq83X",
+              "id": "1NrCzxQBuoRoh8q1ZRq83X",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/48cfbec410616af1ed81efd31683277144a75ef1",
+                      "width": 640
+                  },
+                  {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/fb3eaf8524360570a3f7650c4d0e0c95fe324fa8",
+                      "width": 320
+                  },
+                  {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/ff9155c53b8a806605d9424b89b929ae592fd4db",
+                      "width": 160
+                  }
+              ],
+              "name": "Britney Stoney",
+              "popularity": 30,
+              "type": "artist",
+              "uri": "spotify:artist:1NrCzxQBuoRoh8q1ZRq83X"
+          },
+          {
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/4XRWAl243L3mWr5TwNzWiY"
+              },
+              "followers": {
+                  "href": null,
+                  "total": 329
+              },
+              "genres": [
+                  "fake"
+              ],
+              "href": "https://api.spotify.com/v1/artists/4XRWAl243L3mWr5TwNzWiY",
+              "id": "4XRWAl243L3mWr5TwNzWiY",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b2735eff6f63d9c47429c5c4b9d9",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e025eff6f63d9c47429c5c4b9d9",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d000048515eff6f63d9c47429c5c4b9d9",
+                      "width": 64
+                  }
+              ],
+              "name": "Britney",
+              "popularity": 20,
+              "type": "artist",
+              "uri": "spotify:artist:4XRWAl243L3mWr5TwNzWiY"
+          },
+          {
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/14n845SiOHe5mIPDuLZhqu"
+              },
+              "followers": {
+                  "href": null,
+                  "total": 12
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/14n845SiOHe5mIPDuLZhqu",
+              "id": "14n845SiOHe5mIPDuLZhqu",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b2733a5aebbf9a0781cbee23469c",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e023a5aebbf9a0781cbee23469c",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d000048513a5aebbf9a0781cbee23469c",
+                      "width": 64
+                  }
+              ],
+              "name": "Britney Pherz",
+              "popularity": 11,
+              "type": "artist",
+              "uri": "spotify:artist:14n845SiOHe5mIPDuLZhqu"
+          },
+          {
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/60EVL0JTLz8qejHV0rfOdl"
+              },
+              "followers": {
+                  "href": null,
+                  "total": 837
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/60EVL0JTLz8qejHV0rfOdl",
+              "id": "60EVL0JTLz8qejHV0rfOdl",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b2739d7edd312a980cb5bc979801",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e029d7edd312a980cb5bc979801",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d000048519d7edd312a980cb5bc979801",
+                      "width": 64
+                  }
+              ],
+              "name": "Britney Lambert",
+              "popularity": 12,
+              "type": "artist",
+              "uri": "spotify:artist:60EVL0JTLz8qejHV0rfOdl"
+          },
+          {
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/4JXs9Iag2Bj9JAcsLd0XH3"
+              },
+              "followers": {
+                  "href": null,
+                  "total": 14
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/4JXs9Iag2Bj9JAcsLd0XH3",
+              "id": "4JXs9Iag2Bj9JAcsLd0XH3",
+              "images": [],
+              "name": "Britney Coleman",
+              "popularity": 7,
+              "type": "artist",
+              "uri": "spotify:artist:4JXs9Iag2Bj9JAcsLd0XH3"
+          },
+          {
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/3hVYvMPJYEhQAfqJVARHt4"
+              },
+              "followers": {
+                  "href": null,
+                  "total": 172
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/3hVYvMPJYEhQAfqJVARHt4",
+              "id": "3hVYvMPJYEhQAfqJVARHt4",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273c3794c0b2ccc840ce46337ed",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02c3794c0b2ccc840ce46337ed",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851c3794c0b2ccc840ce46337ed",
+                      "width": 64
+                  }
+              ],
+              "name": "Britney Christian",
+              "popularity": 6,
+              "type": "artist",
+              "uri": "spotify:artist:3hVYvMPJYEhQAfqJVARHt4"
+          },
+          {
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/2UUm2gZSyOVdsAzxWZkJKL"
+              },
+              "followers": {
+                  "href": null,
+                  "total": 122
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/2UUm2gZSyOVdsAzxWZkJKL",
+              "id": "2UUm2gZSyOVdsAzxWZkJKL",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/596a999bb304128b07ca767412045b69c1051b70",
+                      "width": 640
+                  },
+                  {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/4847ed20e38bdd2f771a3b2a1beb2ee932ccbe28",
+                      "width": 320
+                  },
+                  {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/2db81af4959a39b7c3167192140e3b92d370c07d",
+                      "width": 160
+                  }
+              ],
+              "name": "Britney Lee",
+              "popularity": 3,
+              "type": "artist",
+              "uri": "spotify:artist:2UUm2gZSyOVdsAzxWZkJKL"
+          },
+          {
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6REnbkEOSz9ZgXgEMGTncE"
+              },
+              "followers": {
+                  "href": null,
+                  "total": 5
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/6REnbkEOSz9ZgXgEMGTncE",
+              "id": "6REnbkEOSz9ZgXgEMGTncE",
+              "images": [],
+              "name": "Britney Holman",
+              "popularity": 2,
+              "type": "artist",
+              "uri": "spotify:artist:6REnbkEOSz9ZgXgEMGTncE"
+          },
+          {
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/4s6eifAsH94REMUOsdDPHq"
+              },
+              "followers": {
+                  "href": null,
+                  "total": 159
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/4s6eifAsH94REMUOsdDPHq",
+              "id": "4s6eifAsH94REMUOsdDPHq",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/baec7727ca04297ca0e87cec708dedbd6b26d463",
+                      "width": 640
+                  },
+                  {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/926504f16a17f511a4c9a35a332e5a56b4fa1ab5",
+                      "width": 320
+                  },
+                  {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/5e75c8d2cad95b5a1034c8245d5282441035713e",
+                      "width": 160
+                  }
+              ],
+              "name": "Britney Sinh",
+              "popularity": 2,
+              "type": "artist",
+              "uri": "spotify:artist:4s6eifAsH94REMUOsdDPHq"
+          },
+          {
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/7EAWBe8NxfbfJcjusUGWd6"
+              },
+              "followers": {
+                  "href": null,
+                  "total": 86
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/7EAWBe8NxfbfJcjusUGWd6",
+              "id": "7EAWBe8NxfbfJcjusUGWd6",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/94c8d82f8f76ab0f9826350d680f4cc2a286cbe6",
+                      "width": 640
+                  },
+                  {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/f2f65f69690983e9aa4b4d920291d8c9b7c00186",
+                      "width": 320
+                  },
+                  {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/9bf17ebbea054f234142512c9a69b7b263107812",
+                      "width": 160
+                  }
+              ],
+              "name": "Britney Marie",
+              "popularity": 2,
+              "type": "artist",
+              "uri": "spotify:artist:7EAWBe8NxfbfJcjusUGWd6"
+          },
+          {
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/5elN85BCMhXlqAPgHO9XRG"
+              },
+              "followers": {
+                  "href": null,
+                  "total": 61
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/5elN85BCMhXlqAPgHO9XRG",
+              "id": "5elN85BCMhXlqAPgHO9XRG",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ac05242927b811492bbdb6cbded00d4128510359",
+                      "width": 640
+                  },
+                  {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/b8c34e685aa33f6f30b1f36e18cd989b9215e808",
+                      "width": 320
+                  },
+                  {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/c437528187d48c63fbf95b495a3e48435cdadbb2",
+                      "width": 160
+                  }
+              ],
+              "name": "Britney Jane",
+              "popularity": 1,
+              "type": "artist",
+              "uri": "spotify:artist:5elN85BCMhXlqAPgHO9XRG"
+          },
+          {
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/7mok1vvnVgsdoUp7J7n6gz"
+              },
+              "followers": {
+                  "href": null,
+                  "total": 120
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/7mok1vvnVgsdoUp7J7n6gz",
+              "id": "7mok1vvnVgsdoUp7J7n6gz",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/b9b9e430e3128b2b17f61585dda607dde3544655",
+                      "width": 640
+                  },
+                  {
+                      "height": 320,
+                      "url": "https://i.scdn.co/image/ff414d8eb3b08649f71ac80e7a25f80e8d9c790a",
+                      "width": 320
+                  },
+                  {
+                      "height": 160,
+                      "url": "https://i.scdn.co/image/cf564a57c43fa0dec24f983e0990e5e4e46dcd56",
+                      "width": 160
+                  }
+              ],
+              "name": "Britney Benson",
+              "popularity": 0,
+              "type": "artist",
+              "uri": "spotify:artist:7mok1vvnVgsdoUp7J7n6gz"
+          },
+          {
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/2XBK0UCUjFwMnggxJKWy9p"
+              },
+              "followers": {
+                  "href": null,
+                  "total": 1
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/2XBK0UCUjFwMnggxJKWy9p",
+              "id": "2XBK0UCUjFwMnggxJKWy9p",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273fdb6708ecb1def833ed7e3b1",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02fdb6708ecb1def833ed7e3b1",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851fdb6708ecb1def833ed7e3b1",
+                      "width": 64
+                  }
+              ],
+              "name": "Britney Anderson",
+              "popularity": 1,
+              "type": "artist",
+              "uri": "spotify:artist:2XBK0UCUjFwMnggxJKWy9p"
+          },
+          {
+              "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/4M5PyUGhFcGb7qgyUGLkNM"
+              },
+              "followers": {
+                  "href": null,
+                  "total": 114
+              },
+              "genres": [],
+              "href": "https://api.spotify.com/v1/artists/4M5PyUGhFcGb7qgyUGLkNM",
+              "id": "4M5PyUGhFcGb7qgyUGLkNM",
+              "images": [
+                  {
+                      "height": 640,
+                      "url": "https://i.scdn.co/image/ab67616d0000b273988b7bc62be6129f60201578",
+                      "width": 640
+                  },
+                  {
+                      "height": 300,
+                      "url": "https://i.scdn.co/image/ab67616d00001e02988b7bc62be6129f60201578",
+                      "width": 300
+                  },
+                  {
+                      "height": 64,
+                      "url": "https://i.scdn.co/image/ab67616d00004851988b7bc62be6129f60201578",
+                      "width": 64
+                  }
+              ],
+              "name": "Britney Nicole",
+              "popularity": 0,
+              "type": "artist",
+              "uri": "spotify:artist:4M5PyUGhFcGb7qgyUGLkNM"
+          }
+      ],
+      "limit": 20,
+      "next": "https://api.spotify.com/v1/search?query=britney&type=artist&offset=20&limit=20",
+      "offset": 0,
+      "previous": null,
+      "total": 125
+  }
+}
