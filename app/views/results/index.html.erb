@@ -7,9 +7,7 @@
   <%= submit_tag('Search') %>
 <% end %>
 
-<% if @error.present? %>
-  <h3>Ouch... we encountered an error while searching :(</h3>
-<% else %>
+<% if @results.present? %>
   <h1>Results</h1>
 
   <table id="results-table">
@@ -30,5 +28,7 @@
       <% end %>
     </tbody>
   </table>
+<% else %>
+  <h3>Ouch... we encountered an error while searching :(</h3>
 <% end %>
 

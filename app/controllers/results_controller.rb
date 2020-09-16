@@ -5,11 +5,7 @@ class ResultsController < ApplicationController
   def index
     @query = params[:q].present? ? query_params[:q] : ''
     @search = Result.search_and_save(@query)
-    if @search.success?
-      @results = @search.payload
-    else
-      @error = @search.error
-    end
+    @results = @search.payload if @search.success?
   end
 
   private
