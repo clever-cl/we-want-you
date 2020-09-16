@@ -3,9 +3,10 @@
 class ResultsController < ApplicationController
   # GET /results
   def index
-    @query = params[:q].present? ? query_params[:q] : ''
-    @search = Result.search_and_save(@query)
-    @results = @search.payload if @search.success?
+    # TODO: Add Pagination
+    @query = query_params[:q]
+    Result.search_and_save(@query)
+    @results = @query.present? ? Result.filter_by_query(@query) : Result.all
   end
 
   private
