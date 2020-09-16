@@ -7,23 +7,28 @@
   <%= submit_tag('Search') %>
 <% end %>
 
-<h1>Results</h1>
+<% if @error.present? %>
+  <h3>Ouch... we encountered an error while searching :(</h3>
+<% else %>
+  <h1>Results</h1>
 
-<table id="results-table">
-  <thead>
-    <tr>
-      <th>Type</th>
-      <th>Name</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @results.each do |result| %>
-      <tr id="results-list">
-        <td><%= result.result_type %></td>
-        <td><%= result.name %></td>
+  <table id="results-table">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th colspan="3"></th>
       </tr>
-    <% end %>
-  </tbody>
-</table>
+    </thead>
+
+    <tbody>
+      <% @results.each do |result| %>
+        <tr id="results-list">
+          <td><%= result.result_type %></td>
+          <td><%= result.name %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+<% end %>
+
