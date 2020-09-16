@@ -1,0 +1,55 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Searchs</h1>
+
+<%= form_with(url: results_path, method: :get, local: true) do |f| %>
+  <%= text_field_tag('q', @query) %>
+  <%= submit_tag('Search') %>
+<% end %>
+
+<% if @results.present? %>
+  <h1>Albums</h1>
+
+  <table id="albums-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Artist</th>
+        <th colspan="3"></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @results.album.order(name: :asc).each do |result| %>
+        <tr id="albums-list">
+          <td><%= result.name %></td>
+          <td><%= result.artist %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+  <h1>Artists</h1>
+
+  <table id="artists-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Popularity</th>
+        <th colspan="3"></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @results.artist.order(popularity: :desc).each do |result| %>
+        <tr id="artists-list">
+          <td><%= result.name %></td>
+          <td><%= result.popularity %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+<% else %>
+  <h3>Ouch... we encountered an error while searching :(</h3>
+<% end %>
+
