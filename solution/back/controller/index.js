@@ -1,15 +1,32 @@
-function controller(req, res) {
-  console.log('req.spotifyOauth2Token', req.spotifyOauth2Token);
+var SpotifyWebApi = require('spotify-web-api-node');
 
-  // spotifyApi.getArtistAlbums('43ZHCT0cAZBISjO8DG9PnE').then(
-  //   function (data) {
-  //     console.log('Artist albums', data.body);
-  //   },
-  //   function (err) {
-  //     console.error(err);
-  //   }
-  // );
-  res.send('up and running controller\n' + req.spotifyOauth2Token);
+function controller(req, res) {
+  // albumOrArtist param should be encoded as URI component
+  const param = decodeURIComponent(req.params.albumOrArtist);
+
+  // Get query offset and limit to fetch
+  // TODO: check if these are numbers
+  const offset = (req.query && req.query.offset) ? req.query.offset : 0;
+  const limit = (req.query && req.query.limit) ? req.query.limit : 0;
+
+  // Create a new SpotifyWebApi instance and set the Oauth2 token received
+  const spotifyApi = new SpotifyWebApi();
+  spotifyApi.setAccessToken(req.spotifyOauth2Token);
+
+  // Execute the query using spotifyApi searchTracks method
+  spotifyApi.searchTracks(`album:${param} artist:${param}`, {
+    limit,
+    offset
+  }).then(
+    function (data) {
+      // Send the response with the received result and its metadata
+      res.send(data.body);
+    },
+    function (err) {
+      // End the request sending the message of the error
+      res.send('error', err.message);
+    }
+  );
 }
 
 module.exports = controller;

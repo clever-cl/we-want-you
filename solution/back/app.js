@@ -8,10 +8,16 @@ const BASE_URI = '/v1';
 // TODO: manage CORS and allowed headers
 const app = express();
 
+/**
+ * Health route
+ */
 app.get(`${BASE_URI}/health`, (req, res) => {
   res.send('up and running\n');
 });
 
+/**
+ * Get a songs list from a given album or artist
+ */
 app.get(`${BASE_URI}/songs/:albumOrArtist`, [
   spotifyOauth2TokenGet,
   controller,
