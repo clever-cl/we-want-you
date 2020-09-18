@@ -1,14 +1,22 @@
 const express = require('express');
 const controller = require('./controller');
+const {
+  spotifyOauth2TokenGet,
+} = require('./middlewares');
 const BASE_URI = '/v1';
 
+// TODO: manage CORS and allowed headers
 const app = express();
 
 app.get(`${BASE_URI}/health`, (req, res) => {
   res.send('up and running\n');
 });
 
-app.get(`${BASE_URI}/songs/:albumOrArtist`, controller);
+app.get(`${BASE_URI}/songs/:albumOrArtist`, [
+  spotifyOauth2TokenGet,
+  controller,
+]);
+
 /**
  * Custom page not found handler 
  */
