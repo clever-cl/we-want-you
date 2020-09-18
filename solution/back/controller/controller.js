@@ -1,13 +1,13 @@
 var SpotifyWebApi = require('spotify-web-api-node');
 
-function controller(req, res) {
+async function controller(req, res) {
   // albumOrArtist param should be encoded as URI component
   const param = decodeURIComponent(req.params.albumOrArtist);
 
   // Get query offset and limit to fetch
   // TODO: check if these are numbers
   const offset = (req.query && req.query.offset) ? req.query.offset : 0;
-  const limit = (req.query && req.query.limit) ? req.query.limit : 0;
+  const limit = (req.query && req.query.limit) ? req.query.limit : 20;
 
   // Create a new SpotifyWebApi instance and set the Oauth2 token received
   const spotifyApi = new SpotifyWebApi();

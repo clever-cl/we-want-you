@@ -1,9 +1,6 @@
 const chai = require('chai');
 const chaiAsPromised = require('chai-as-promised');
 const mockery = require('mockery');
-const {
-  mock
-} = require('sinon');
 const sinon = require('sinon');
 const sinonChai = require('sinon-chai');
 
@@ -12,7 +9,7 @@ const expect = chai.expect;
 chai.use(sinonChai);
 chai.use(chaiAsPromised);
 
-describe.only('spotifyOauth2TokenGet', () => {
+describe('spotifyOauth2TokenGet', () => {
   // Settings and initializations required before each test execution
   beforeEach(() => {
     mockery.enable({
