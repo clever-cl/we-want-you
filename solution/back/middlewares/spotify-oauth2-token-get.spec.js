@@ -27,7 +27,7 @@ describe('spotifyOauth2TokenGet', () => {
   /**
    * Unit tests
    */
-  it('should create a new SpotifyWebApi instance with credentials from config', (done) => {
+  it('should instance SpotifyWebApi instance with credentials', (done) => {
     // Spies that listen to function calls
     const nextSpy = sinon.spy();
     const constructorSpy = sinon.spy();

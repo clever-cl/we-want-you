@@ -74,7 +74,8 @@ describe('controller', () => {
       .then(() => {
         // Assertions
         expect(searchTracksSpy).calledOnceWith(
-          `album:${reqMock.params.albumOrArtist} artist:${reqMock.params.albumOrArtist}`, {
+          `album:${reqMock.params.albumOrArtist} ` +
+          `artist:${reqMock.params.albumOrArtist}`, {
             limit: 10,
             offset: 20,
           }
@@ -130,7 +131,8 @@ describe('controller', () => {
       .then(() => {
         // Assertions
         expect(searchTracksSpy).calledOnceWith(
-          `album:${reqMock.params.albumOrArtist} artist:${reqMock.params.albumOrArtist}`, {
+          `album:${reqMock.params.albumOrArtist} ´ +
+          ´artist:${reqMock.params.albumOrArtist}`, {
             limit: 20,
             offset: 0,
           }
@@ -182,7 +184,8 @@ describe('controller', () => {
       .then(() => {
         // Assertions
         expect(searchTracksSpy).calledOnceWith(
-          `album:${reqMock.params.albumOrArtist} artist:${reqMock.params.albumOrArtist}`, {
+          `album:${reqMock.params.albumOrArtist} ` +
+          `artist:${reqMock.params.albumOrArtist}`, {
             limit: 20,
             offset: 0,
           }
