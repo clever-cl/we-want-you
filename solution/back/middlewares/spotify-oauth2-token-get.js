@@ -8,7 +8,7 @@ const {
  * and store it on the request object as:
  * req.spotifyOauth2Token
  */
-function spotifyOauth2TokenGet(req, res, next) {
+async function spotifyOauth2TokenGet(req, res, next) {
   // Create a new SpotifyWebApi instance with the given client credentials
   spotifyApi = new SpotifyWebApi({
     clientId: spotifyClientCredentials.id,
@@ -23,7 +23,6 @@ function spotifyOauth2TokenGet(req, res, next) {
       next();
     }, (err) => {
       // Error: end the request and send the error
-      console.log('Error while requesting a new Spotify Oauth2 token!', err);
       next(err);
     });
 }

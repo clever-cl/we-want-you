@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "start-dev": "nodemon ./bin/www",
-    "test": "replace me"
+    "test": "_mocha $(find ./ -name '*.spec.js')"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,12 @@
     "spotify-web-api-node": "^4.0.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^8.1.3",
+    "mockery": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "sinon": "^9.0.3",
+    "sinon-chai": "^3.5.0"
   }
 }
