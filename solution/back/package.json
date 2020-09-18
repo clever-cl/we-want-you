@@ -1,0 +1,30 @@
+{
+  "name": "spotify-albums-and-artists-get-service",
+  "version": "1.0.0",
+  "description": "Given a string this service will look up for all artists and albums available in spotify that match the string using the spotify API.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "start-dev": "nodemon ./bin/www",
+    "test": "replace me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aa-casualcoder/we-want-you.git"
+  },
+  "keywords": [
+    "spotify"
+  ],
+  "author": "Augusto Ascanio",
+  "bugs": {
+    "url": "https://github.com/aa-casualcoder/we-want-you/issues"
+  },
+  "homepage": "https://github.com/aa-casualcoder/we-want-you#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-routemap": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
