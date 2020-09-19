@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/aa-casualcoder/we-want-you#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-routemap": "^1.6.0",
     "spotify-web-api-node": "^4.0.0"

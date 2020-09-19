@@ -1,3 +1,4 @@
+var cors = require('cors')
 const express = require('express');
 const controller = require('./controller');
 const {
@@ -5,8 +6,10 @@ const {
 } = require('./middlewares');
 const BASE_URI = '/v1';
 
-// TODO: manage CORS and allowed headers
 const app = express();
+
+// Enable CORS
+app.use(cors())
 
 /**
  * Health route
