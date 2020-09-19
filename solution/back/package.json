@@ -1,0 +1,40 @@
+{
+  "name": "spotify-albums-and-artists-get-service",
+  "version": "1.0.0",
+  "description": "Given a string this service will look up for all artists and albums available in spotify that match the string using the spotify API.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "start-dev": "nodemon ./bin/www",
+    "test": "_mocha $(find ./controller ./middlewares -name '*.spec.js')",
+    "lint": "node_modules/.bin/eslint ./controller ./middlewares"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aa-casualcoder/we-want-you.git"
+  },
+  "keywords": [
+    "spotify"
+  ],
+  "author": "Augusto Ascanio",
+  "bugs": {
+    "url": "https://github.com/aa-casualcoder/we-want-you/issues"
+  },
+  "homepage": "https://github.com/aa-casualcoder/we-want-you#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-routemap": "^1.6.0",
+    "spotify-web-api-node": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^7.9.0",
+    "mocha": "^8.1.3",
+    "mockery": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "sinon": "^9.0.3",
+    "sinon-chai": "^3.5.0"
+  }
+}
