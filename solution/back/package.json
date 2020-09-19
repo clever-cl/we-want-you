@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "start-dev": "nodemon ./bin/www",
-    "test": "_mocha $(find ./ -name '*.spec.js')",
+    "test": "_mocha $(find ./controller ./middlewares -name '*.spec.js')",
     "lint": "node_modules/.bin/eslint ./controller ./middlewares"
   },
   "repository": {

@@ -20,11 +20,11 @@ async function controller(req, res) {
   }).then(
     function (data) {
       // Send the response with the received result and its metadata
-      res.send(data.body);
+      res.status(200).send(data.body);
     },
     function (err) {
       // End the request sending the message of the error
-      res.send('error', err.message);
+      res.status(500).send(err.message);
     }
   );
 }

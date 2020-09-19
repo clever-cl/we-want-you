@@ -46,7 +46,7 @@ describe('controller', () => {
       spotifyOauth2Token: 'someToken',
     };
     const resMock = {
-      send: sendSpy,
+      status: () => ({send: sendSpy}),
     };
     // Test mocks: dependencies
     const SpotifyWebApiMock = class {
@@ -103,7 +103,7 @@ describe('controller', () => {
       spotifyOauth2Token: 'someToken',
     };
     const resMock = {
-      send: sendSpy,
+      status: () => ({send: sendSpy}),
     };
     // Test mocks: dependencies
     const SpotifyWebApiMock = class {
@@ -131,8 +131,8 @@ describe('controller', () => {
       .then(() => {
         // Assertions
         expect(searchTracksSpy).calledOnceWith(
-          `album:${reqMock.params.albumOrArtist} ´ +
-          ´artist:${reqMock.params.albumOrArtist}`, {
+          `album:${reqMock.params.albumOrArtist} ` +
+          `artist:${reqMock.params.albumOrArtist}`, {
             limit: 20,
             offset: 0,
           }
@@ -160,7 +160,7 @@ describe('controller', () => {
       spotifyOauth2Token: 'someToken',
     };
     const resMock = {
-      send: sendSpy,
+      status: () => ({send: sendSpy}),
     };
     // Test mocks: dependencies
     const errMock = new Error('someError');
@@ -190,7 +190,7 @@ describe('controller', () => {
             offset: 0,
           }
         );
-        expect(sendSpy).calledOnceWith('error', errMock.message);
+        expect(sendSpy).calledOnceWith(errMock.message);
         done();
       });
   });
