@@ -15,7 +15,7 @@ const App = () => {
   const [response, setResponses] = useState()
 const [data, setData] = useState([])
   const getResponse = async () => {
-    const res = await fetch(`http://biceproject.pythonanywhere.com/result/`)
+    const res = await fetch(`https://biceproject.pythonanywhere.com/result/`)
     const data = await res.json()
     setData(data[0].response)
   }

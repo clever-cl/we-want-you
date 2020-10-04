@@ -10,7 +10,7 @@ const Header = ({ response }) => {
  
 
   const [inputValue, setInputValues] = useState('')
-  const path = "http://biceproject.pythonanywhere.com"
+  const path = "https://biceproject.pythonanywhere.com"
 
   const showResults = (e) => {
     e.preventDefault()
