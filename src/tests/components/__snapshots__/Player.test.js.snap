@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <Header /> should show component correct 1`] = `
+<div
+  className="player"
+>
+  <div
+    className="player__body"
+  >
+    <Sidebar />
+    <Body />
+  </div>
+</div>
+`;

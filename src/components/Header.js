@@ -4,14 +4,14 @@ import { Avatar } from "@material-ui/core";
 import { useDataLayerValue } from '../helpers/DataLayer';
 
 
-const Header = ({ response }) => {
+const Header = ({ response, getResponse }) => {
 
   const [{ user }, dispatch] = useDataLayerValue()
  
 
   const [inputValue, setInputValues] = useState('')
   const path = "https://biceproject.pythonanywhere.com"
-
+//form to save input value 
   const showResults = (e) => {
     e.preventDefault()
     dispatch({
@@ -19,7 +19,7 @@ const Header = ({ response }) => {
       search: inputValue
     })
   }
-
+//deleting response from backend
   const deleteResponse = async (myList) => {
     const res = await fetch(`${path}/results/1`, {
       method: 'DELETE',
@@ -34,7 +34,7 @@ const Header = ({ response }) => {
       postResponse(myList)
     }
   }
-
+//creating new response in backend
   const postResponse = async (myList) => {
     const res = await fetch(`${path}/results/`, {
       method: 'POST',
@@ -49,10 +49,11 @@ const Header = ({ response }) => {
     if (data.error) {
       console.log("error")
     } else {
-      console.log("success")
+      getResponse()
     }
+    
   }
-
+//getting data for post to backend
   const mapping = () => {
     const songs = response.tracks.items
     const myList = []
