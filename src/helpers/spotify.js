@@ -1,6 +1,6 @@
 
 export const authEndpoint = "https://accounts.spotify.com/authorize";
-const redirectUri = "http://localhost:3000/"
+const redirectUri = "https://we-want-you.vercel.app/"
 const clientId = "5a867881fb00440cba8f2da627f4f3f5"
 
 const scopes = [
