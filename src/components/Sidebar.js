@@ -8,7 +8,7 @@ import { useDataLayerValue } from '../helpers/DataLayer'
 
 const Sidebar = () => {
     const [{ playlists }] = useDataLayerValue()
-//console.log(playlists)
+
     return (
         <div className="sidebar">
             <img
@@ -22,8 +22,10 @@ const Sidebar = () => {
             <br />
             <strong className="sidebar__title">PLAYLISTS</strong>
             <hr />
-            {playlists?.items?.map((playlist) => (
+            {playlists?.items?.map((playlist, i) => (
+                <div key={i}>
                 <SidebarOptions title={playlist.name} />
+                </div>
 
             ))}
         </div>

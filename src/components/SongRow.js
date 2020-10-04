@@ -1,15 +1,15 @@
 import React from 'react'
 import "../styles/SongRow.css"
-const SongRow = ({ track = "test", playSong }) => {
+const SongRow = ({ album_image, album_name, artist_name, track_id, playSong }) => {
+
     return (
-        <div className="songRow" onClick={() =>playSong(track.id)}>
-        <img className="songRow__album" src={track.album.images[0].url}  alt="AlbumImage" /> 
+        <div className="songRow" onClick={() =>playSong(track_id)} >
+        <img className="songRow__album" src={album_image}  alt="AlbumImage" /> 
              
             <div className="songRow__info">
-                {/* <h1>{track.name}</h1> */}
-                <p> {track.artists.map((artist) => artist.name).join(", ")} -{" "}
-                    {track.album.name}</p>
-            </div>
+                <p> {artist_name.toString() } --
+                    { album_name}</p>
+            </div> 
         </div>
     )
 }

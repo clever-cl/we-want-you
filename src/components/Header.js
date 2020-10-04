@@ -1,18 +1,16 @@
 import React, { useState, useEffect } from 'react'
 import "../styles/Header.scss"
-import SearchIcon from "@material-ui/icons/Search";
 import { Avatar } from "@material-ui/core";
 import { useDataLayerValue } from '../helpers/DataLayer';
 
 
-const Header = ({ spotify, response }) => {
-  console.log(response)
+const Header = ({ response }) => {
 
   const [{ user }, dispatch] = useDataLayerValue()
  
 
   const [inputValue, setInputValues] = useState('')
-  const path = "http://localhost:5000"
+  const path = "http://biceproject.pythonanywhere.com"
 
   const showResults = (e) => {
     e.preventDefault()
@@ -30,7 +28,6 @@ const Header = ({ spotify, response }) => {
       },
     })
     const data = await res.json()
-    console.log(data)
     if (data.error) {
       console.log("error")
     } else {
@@ -49,7 +46,6 @@ const Header = ({ spotify, response }) => {
       })
     })
     const data = await res.json()
-    console.log(data)
     if (data.error) {
       console.log("error")
     } else {
@@ -68,7 +64,7 @@ const Header = ({ spotify, response }) => {
         track_id: id,
         artist_name: artistsList
       }
-      myList.push(data)
+      return myList.push(data)
     })
     deleteResponse(myList)
   }
@@ -85,14 +81,13 @@ const Header = ({ spotify, response }) => {
 
   return (
     <div className="header">
-      {/*   <button onClick={asdasd}>press</button> */}
-      <form class="search" onSubmit={(e) => showResults(e)}>
-        <div class="search__wrapper">
-          <input type="text" name="" placeholder="Search for something..." class="search__field " onChange={(e) => setInputValues(e.target.value)} />
-          <button type="submit" class="search__icon"><svg x="0px" y="0px" viewBox="0 0 24 24" width="20px" height="20px">
-            <g stroke-linecap="square" stroke-linejoin="miter" stroke="currentColor">
-              <line fill="none" stroke-miterlimit="10" x1="22" y1="22" x2="16.4" y2="16.4" />
-              <circle fill="none" stroke="currentColor" stroke-miterlimit="10" cx="10" cy="10" r="9" />
+      <form className="search" onSubmit={(e) => showResults(e)}>
+        <div className="search__wrapper">
+          <input type="text" name="" placeholder="Search for something..." className="search__field " onChange={(e) => setInputValues(e.target.value)} />
+          <button type="submit" className="search__icon"><svg x="0px" y="0px" viewBox="0 0 24 24" width="20px" height="20px">
+            <g strokeLinecap="square" strokeLinejoin="miter" stroke="currentColor">
+              <line fill="none" strokeMiterlimit="10" x1="22" y1="22" x2="16.4" y2="16.4" />
+              <circle fill="none" stroke="currentColor" strokeMiterlimit="10" cx="10" cy="10" r="9" />
             </g>
           </svg></button>
         </div>

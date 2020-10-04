@@ -1,4 +1,4 @@
-
+//http://biceproject.pythonanywhere.com/result
 import React, { useEffect, useState } from 'react';
 import "./styles/App.css"
 import Login from './components/Login'
@@ -13,9 +13,15 @@ const App = () => {
 
   const [{ token, search }, dispatch] = useDataLayerValue()
   const [response, setResponses] = useState()
+const [data, setData] = useState([])
+  const getResponse = async () => {
+    const res = await fetch(`http://biceproject.pythonanywhere.com/result/`)
+    const data = await res.json()
+    setData(data[0].response)
+  }
   useEffect(() => {
+    getResponse()
     const hash = getTokenFromUrl()
-    // window.location.hash = ''
     const _token = hash.access_token
     if (_token) {
       dispatch({
@@ -36,12 +42,7 @@ const App = () => {
         })
       })
       spotify.searchTracks(search).then(response => {
-        console.log(response)
         setResponses(response)
-        dispatch({
-          type: "SET_RESULT",
-          result: response,
-        })
       })
     }
   }, [search])
@@ -49,7 +50,7 @@ const App = () => {
     <div className="app">
       {
         token ? (
-          <Player spotify={spotify} response={response}/>
+          <Player spotify={spotify} response={response} data={data}/>
         )
           :
           (

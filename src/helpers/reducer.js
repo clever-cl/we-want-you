@@ -7,7 +7,7 @@ export const initialState = {
 }
 
 const reducer = (state, action) => {
-    console.log(state, action)
+    //console.log(state, action)
     switch (action.type) {
         case 'SET_USER':
             return {
@@ -23,11 +23,6 @@ const reducer = (state, action) => {
             return {
                 ...state,
                 playlists: action.playlists
-            }
-        case "SET_RESULT":
-            return {
-                ...state,
-                result: action.result
             }
         case "SET_SEARCH":
             return {
