@@ -29,7 +29,7 @@ We are looking for a way that allows us to fetch our favorite songs from Spotify
 # The rules for UI Frontend Developers
 - Fork this repository and create a PR
 - Provide a **UI + frontend solution only** for the problem described in the *Brief* section 
-- Your UI + frontend solutions must include this (micro-interaction)[https://dribbble.com/shots/4827926-Search-input-animation] in the search field
+- Your UI + frontend solutions must include this [micro-interaction](https://dribbble.com/shots/4827926-Search-input-animation) in the search field
 - Use any framework and language as you want
 - You can add integration and e2e test (if you want, as much you can)
 - You can use any kind of platform to deploy (if you want) i.e.: Heroku, GCP, AWS, etc
@@ -37,7 +37,7 @@ We are looking for a way that allows us to fetch our favorite songs from Spotify
 # The rules for Frontend Developers
 - Fork this repository and create a PR
 - Provide a frontend for **First Part** of the problem described in the *Brief* section 
-- Your frontend solution must include this (micro-interaction)[https://dribbble.com/shots/4827926-Search-input-animation] in the search field
+- Your frontend solution must include this [micro-interaction](https://dribbble.com/shots/4827926-Search-input-animation) in the search field
 - Use javascript or typescript with react
 - You can add integration and e2e test (**if you want**, as much you can)
 - You can use any kind of platform to deploy (**if you want**) i.e.: Heroku, GCP, AWS, etc
