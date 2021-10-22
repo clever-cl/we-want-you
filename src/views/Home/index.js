@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
+import {spoAuthCall} from "../../utils";
 import logo from './style/Spotify-logotipo.jpg';
 import './style/App.css';
-import { useLocation } from 'react-router';
+
 
 
 const apiSpotifyUrl = `https://accounts.spotify.com/authorize?client_id=${process.env.REACT_APP_CLIENT_ID}&response_type=code&redirect_uri=${process.env.REACT_APP_CALLBACK_HOST}&scope=user-read-private`;
@@ -10,11 +12,16 @@ const apiSpotifyUrl = `https://accounts.spotify.com/authorize?client_id=${proces
 export default function Home() {
     const location = useLocation();
 
+    const autenticateUser = async (spoCode) => {
+        const result = await spoAuthCall(spoCode)
+        console.log(result);
+    };
+   
     useEffect(() => {
-        const urlParams = new URLSearchParams(Location.search);
+        const urlParams = new URLSearchParams(location.search);
         const spoCode = urlParams.get("code");
-        console.log(spoCode);
-    },[]);
+        if (spoCode) autenticateUser(spoCode);
+    }, [location.search]);
 
     const handleLoginClick = () => {
         window.location.replace(apiSpotifyUrl);
