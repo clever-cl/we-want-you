@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-csv-mysql",
+  "name": "csv-mysqll",
   "version": "1.0.0",
-  "description": "Node.js demo: import csv data to MySQL & extract MySQL data to csv",
+  "description": "importar arhivo csv a bd muysql",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
