@@ -1,0 +1,45 @@
+
+body{
+    background: black;
+
+}
+.mi-title{
+   color:aliceblue;
+}
+.buscar{
+   position: absolute;
+   display: flex;
+   padding: 5px;
+}
+.buscar input{
+    
+    width: 0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    text-align: center;
+    transition: all 0.6s ease;
+    border-radius: 10px;
+  
+}
+.btn{
+    position: absolute;
+    color: black;
+    top: 0;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50%;
+   
+}
+.buscar:hover input
+{
+    width: 240px;
+}
+.resultado{
+    color:beige;
+    font-size: 20px;
+}
+
