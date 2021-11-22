@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <Login /> should show component correct 1`] = `
+<div
+  className="login"
+>
+  <a
+    href="https://accounts.spotify.com/authorize?client_id=5a867881fb00440cba8f2da627f4f3f5&redirect_uri=http://localhost:3000/&scope=user-read-currently-playing%20user-read-recently-played%20user-read-playback-state%20user-top-read%20user-modify-playback-state&response_type=token&show_dialog=true"
+  >
+     Login with spotify
+  </a>
+</div>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <Body /> should show component correct 1`] = `
+<div
+  className="body"
+>
+  <Header />
+  <SpotifyPlayer
+    size={
+      Object {
+        "height": 300,
+        "width": "100%",
+      }
+    }
+    theme="black"
+    uri="spotify:track:null"
+    view="list"
+  />
+  <div
+    className="body__songs"
+  />
+</div>
+`;
